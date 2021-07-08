@@ -1,0 +1,28 @@
+{
+  "name": "voyager-microbenchmarker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@hpcc-js/wasm": "^1.5.1",
+    "@mapd/connector": "^5.5.2",
+    "apache-arrow": "^4.0.0",
+    "gh-pages": "^3.1.0",
+    "performance": "^1.4.0",
+    "vega": "^5.20.2",
+    "vega-transform-db": "^1.0.1",
+    "vega-transform-omnisci-core": "^0.0.12",
+    "vega-transforms": "^4.9.4"
+  },
+  "scripts": {
+    "cleanup": "rm -rf .cache dist",
+    "start": "parcel index.html",
+    "build": "parcel build --public-url '/scalable-vega-demo.github.io/' index.html",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.2",
+    "parcel-bundler": "^1.12.3",
+    "typescript": "^3.9.5"
+  }
+}
