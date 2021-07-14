@@ -1,7 +1,6 @@
 var util = require('vega-util'),
     vega = require('vega-dataflow'),
     tx = require('vega-transforms'),
-    assert = require('assert'),
     changeset = vega.changeset,
     Extent = tx.extent,
     Collect = tx.collect;
