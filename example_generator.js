@@ -8,6 +8,9 @@
  * Acceleration     : 15.51970443349754	    2.8033588163425462	8	    24.8    False
  */
 
+const seedrandom = require('seedrandom');
+const rng = seedrandom('rng');      // SEED (If you don't want seed, replace all rng with Math.random())
+
 const STAT = {
     "Miles_per_Gallon": [23.514572864321607,    7.815984312565783,	9,	    46.6],
     "Cylinders"       : [5.475369458128076,	    1.7121596315485292,	3,	    8   ],
@@ -23,8 +26,8 @@ function generate_examples(stats, count, strictInt) {
 
     function randn_bm() {
         var u = 0, v = 0;
-        while(u === 0) u = Math.random();
-        while(v === 0) v = Math.random();
+        while(u === 0) u = rng();
+        while(v === 0) v = rng();
 
         return Math.sqrt( -2.0 * Math.log( u ) ) * Math.cos( 2.0 * Math.PI * v );
     }
@@ -58,4 +61,6 @@ let horsepower = generate_examples(STAT['Horsepower'], sample_count, true)
 let weight_in_lbs = generate_examples(STAT['Weight_in_lbs'], sample_count, true)
 let acceleration = generate_examples(STAT['Acceleration'], sample_count, false)
 
-console.log(acceleration)
+// console.log(acceleration)
+
+module.exports = { STAT, generate_examples };

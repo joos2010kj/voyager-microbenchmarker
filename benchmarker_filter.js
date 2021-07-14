@@ -1,65 +1,254 @@
 // Reference: https://github.com/vega/vega/blob/master/packages/vega-transforms/test/filter-test.js
 
-var util = require('vega-util'),
-    vega = require('vega-dataflow'),
-    tx = require('vega-transforms'),
-    assert = require('assert'),
-    changeset = vega.changeset,
-    Collect = tx.collect,
-    Filter = tx.filter;
+const util = require('vega-util'),
+      vega = require('vega-dataflow'),
+      tx = require('vega-transforms'),
+      assert = require('assert'),
+      changeset = vega.changeset,
+      Collect = tx.collect,
+      Filter = tx.filter,
+      fetch = require('node-fetch'),
+      seedrandom = require('seedrandom'),
+      { Transform } = require('./transform.js'),
+      { STAT, generate_examples } = require('./example_generator.js');
 
-const data = [
-  {'id': 1, 'value': 'foo'},
-  {'id': 3, 'value': 'bar'},
-  {'id': 5, 'value': 'baz'}
-];
+/**
+ * Convert String to Hash Code
+ * 
+ * @see http://stackoverflow.com/q/7616461/940217
+ * @return {number}
+ */
+ String.prototype.hashCode = function(){
+  if (Array.prototype.reduce){
+      return this.split("").reduce(function(a,b){a=((a<<5)-a)+b.charCodeAt(0);return a&a},0);              
+  } 
+  var hash = 0;
+  if (this.length === 0) return hash;
+  for (var i = 0; i < this.length; i++) {
+      var character  = this.charCodeAt(i);
+      hash  = ((hash<<5)-hash)+character;
+      hash = hash & hash; // Convert to 32bit integer
+  }
+  return hash;
+}
 
-var df = new vega.Dataflow(),
-    e0 = df.add(null),
-    c0 = df.add(Collect),
-    f0 = df.add(Filter, {expr: e0, pulse: c0}),
-    c1 = df.add(Collect, {pulse: f0});
+fetch("https://vega.github.io/vega-datasets/data/cars.json")
+  .then(res => res.json())
+  .then(data => {
+    const df = new vega.Dataflow(),
+          e0 = df.add(null),
+          c0 = df.add(Collect),
+          f0 = df.add(Filter, {expr: e0, pulse: c0}),
+          c1 = df.add(Collect, {pulse: f0});
 
-df.pulse(c0, changeset().insert(data));
+    const cloneData = JSON.parse(JSON.stringify(data));
+    const sample_count = 1000;
+    const seed = "rng";
+    const rng = seedrandom(seed);
 
-df.update(e0, util.truthy).run();
-console.time("Collect benchmarking 1");
-promise = df.runAsync();
-promise.then(() => console.timeEnd("Collect benchmarking 1"));
-assert.deepStrictEqual(c1.value, data);
+    const getSampleIndex = () => Math.round(sample_count * rng());
+    const convertToHashCode = (array) => array.map(each => JSON.stringify(each)).sort((a, b) => a.localeCompare(b)).toString().hashCode()
+    async function measure(count, type) {
+      console.time(`Benchmark Test ${count} (${type})`);
+      df.runAsync().then(() => console.timeEnd(`Benchmark Test ${count} (${type})`));
+    }
 
-df.update(e0, util.falsy).run();
-console.time("Collect benchmarking 2");
-promise = df.runAsync();
-promise.then(() => console.timeEnd("Collect benchmarking 2"));
-assert.deepStrictEqual(c1.value.length, 0);
+    df.pulse(c0, changeset().insert(data));
 
-df.update(e0, util.accessor(d => d.id < 3, ['id'])).run();
-console.time("Collect benchmarking 3");
-promise = df.runAsync();
-promise.then(() => console.timeEnd("Collect benchmarking 3"));
-assert.deepStrictEqual(c1.value, [data[0]]);
+    // Examples
+    const Miles_per_Gallon = generate_examples(STAT['Miles_per_Gallon'], sample_count, false).sort((a, b) => a.toString().localeCompare(b.toString()));
+    const Cylinders = generate_examples(STAT["Cylinders"], sample_count, true).sort((a, b) => a.toString().localeCompare(b.toString()));
+    const Displacement = generate_examples(STAT["Displacement"], sample_count, true).sort((a, b) => a.toString().localeCompare(b.toString()));
+    const Horsepower = generate_examples(STAT['Horsepower'], sample_count, true).sort((a, b) => a.toString().localeCompare(b.toString()));
+    const Weight_in_lbs = generate_examples(STAT['Weight_in_lbs'], sample_count, true).sort((a, b) => a.toString().localeCompare(b.toString()));
+    const Acceleration = generate_examples(STAT['Acceleration'], sample_count, false).sort((a, b) => a.toString().localeCompare(b.toString()));
+    const storage = {
+      Miles_per_Gallon, Cylinders, Displacement, Horsepower, Weight_in_lbs, Acceleration
+    };
 
-df.update(e0, util.accessor(d => d.value === 'baz', ['value'])).run();
-console.time("Collect benchmarking 4");
-promise = df.runAsync();
-promise.then(() => console.timeEnd("Collect benchmarking 4"));
-assert.deepStrictEqual(c1.value, [data[2]]);
+    let attempt = 1;
 
-df.pulse(c0, changeset().modify(data[0], 'value', 'baz')).run();
-console.time("Collect benchmarking 5");
-promise = df.runAsync();
-promise.then(() => console.timeEnd("Collect benchmarking 5"));
-assert.deepStrictEqual(c1.value, [data[2], data[0]]);
+    // Between
+    async function between_test(category, count, print) {
+      const [ min, max ] = storage[category][getSampleIndex()];
+      const [ inclusive1, inclusive2 ] = [ rng() > 0.5, rng() > 0.5 ];
+      const expression = Transform.Filter.between(category, min, inclusive1, max, inclusive2)['expr'];
+      
+      df.update(e0, util.accessor(datum => eval(expression), [category])).run();
+      measure(count, 'between')
+      const res1 = c1.value;
+      const res2 = cloneData.filter(datum => eval(expression));
+      assert.strictEqual(res1.length, res2.length);
+      assert.strictEqual(convertToHashCode(res1), convertToHashCode(res2));
 
-df.pulse(c0, changeset().modify(data[2], 'value', 'foo')).run();
-console.time("Collect benchmarking 6");
-promise = df.runAsync();
-promise.then(() => console.timeEnd("Collect benchmarking 6"));
-assert.deepStrictEqual(c1.value, [data[0]]);
+      if (print) {
+        console.log({
+          inclusive1,
+          inclusive2,
+          min,
+          max,
+          expression
+        });
+      }
+    }
 
-df.pulse(c0, changeset().modify(data[1], 'id', 4)).run();
-console.time("Collect benchmarking 7");
-promise = df.runAsync();
-promise.then(() => console.timeEnd("Collect benchmarking 7"));
-assert.deepStrictEqual(c1.value, [data[0]]);
+    between_test("Miles_per_Gallon", attempt++);
+    between_test("Cylinders", attempt++);
+    between_test("Horsepower", attempt++);
+    between_test("Displacement", attempt++);
+    between_test("Weight_in_lbs", attempt++);
+    between_test("Acceleration", attempt++);
+    
+
+    // Not Between
+    async function not_between_test(category, count, print) {
+      const [ min, max ] = storage[category][getSampleIndex()];
+      const [ inclusive1, inclusive2 ] = [ rng() > 0.5, rng() > 0.5 ];
+      const expression = Transform.Filter.not_between(category, min, inclusive1, max, inclusive2)['expr'];
+      
+      df.update(e0, util.accessor(datum => eval(expression), [category])).run();
+      measure(count, "not_between")
+      const res1 = c1.value;
+      const res2 = cloneData.filter(datum => eval(expression));
+      assert.strictEqual(res1.length, res2.length);
+      assert.strictEqual(convertToHashCode(res1), convertToHashCode(res2));
+
+      if (print) {
+        console.log({
+          inclusive1,
+          inclusive2,
+          min,
+          max,
+          expression
+        });
+      }
+    }
+
+    not_between_test("Miles_per_Gallon", attempt++);
+    not_between_test("Cylinders", attempt++);
+    not_between_test("Horsepower", attempt++);
+    not_between_test("Displacement", attempt++);
+    not_between_test("Weight_in_lbs", attempt++);
+    not_between_test("Acceleration", attempt++);
+
+
+    // Equal
+    async function equal_test(category, count, print) {
+      const [ min, max ] = storage[category][getSampleIndex()];
+      const expression = Transform.Filter.equal(category, min)['expr'];
+      
+      df.update(e0, util.accessor(datum => eval(expression), [category])).run();
+      measure(count, "equal")
+      const res1 = c1.value;
+      const res2 = cloneData.filter(datum => eval(expression));
+      assert.strictEqual(res1.length, res2.length);
+      assert.strictEqual(convertToHashCode(res1), convertToHashCode(res2));
+
+      if (print) {
+        console.log({
+          inclusive1,
+          inclusive2,
+          min,
+          max,
+          expression
+        });
+      }
+    }
+
+    equal_test("Miles_per_Gallon", attempt++);
+    equal_test("Cylinders", attempt++);
+    equal_test("Horsepower", attempt++);
+    equal_test("Displacement", attempt++);
+    equal_test("Weight_in_lbs", attempt++);
+    equal_test("Acceleration", attempt++);
+
+    // Not Equal
+    async function not_equal_test(category, count, print) {
+      const [ min, max ] = storage[category][getSampleIndex()];
+      const expression = Transform.Filter.not_equal(category, min)['expr'];
+      
+      df.update(e0, util.accessor(datum => eval(expression), [category])).run();
+      measure(count, "not_equal")
+      const res1 = c1.value;
+      const res2 = cloneData.filter(datum => eval(expression));
+      assert.strictEqual(res1.length, res2.length);
+      assert.strictEqual(convertToHashCode(res1), convertToHashCode(res2));
+
+      if (print) {
+        console.log({
+          inclusive1,
+          inclusive2,
+          min,
+          max,
+          expression
+        });
+      }
+    }
+
+    not_equal_test("Miles_per_Gallon", attempt++);
+    not_equal_test("Cylinders", attempt++);
+    not_equal_test("Horsepower", attempt++);
+    not_equal_test("Displacement", attempt++);
+    not_equal_test("Weight_in_lbs", attempt++);
+    not_equal_test("Acceleration", attempt++);
+
+    // is null
+    async function is_null_test(category, count, print) {
+      const [ min, max ] = storage[category][getSampleIndex()];
+      const expression = Transform.Filter.is_null(category, min)['expr'];
+      
+      df.update(e0, util.accessor(datum => eval(expression), [category])).run();
+      measure(count, "is_null")
+      const res1 = c1.value;
+      const res2 = cloneData.filter(datum => eval(expression));
+      assert.strictEqual(res1.length, res2.length);
+      assert.strictEqual(convertToHashCode(res1), convertToHashCode(res2));
+
+      if (print) {
+        console.log({
+          inclusive1,
+          inclusive2,
+          min,
+          max,
+          expression
+        });
+      }
+    }
+
+    is_null_test("Miles_per_Gallon", attempt++);
+    is_null_test("Cylinders", attempt++);
+    is_null_test("Horsepower", attempt++);
+    is_null_test("Displacement", attempt++);
+    is_null_test("Weight_in_lbs", attempt++);
+    is_null_test("Acceleration", attempt++);
+
+    // is not null
+    async function is_not_null_test(category, count, print) {
+      const [ min, max ] = storage[category][getSampleIndex()];
+      const expression = Transform.Filter.is_not_null(category, min)['expr'];
+      
+      df.update(e0, util.accessor(datum => eval(expression), [category])).run();
+      measure(count, "is_not_null")
+      const res1 = c1.value;
+      const res2 = cloneData.filter(datum => eval(expression));
+      assert.strictEqual(res1.length, res2.length);
+      assert.strictEqual(convertToHashCode(res1), convertToHashCode(res2));
+
+      if (print) {
+        console.log({
+          inclusive1,
+          inclusive2,
+          min,
+          max,
+          expression
+        });
+      }
+    }
+
+    is_not_null_test("Miles_per_Gallon", attempt++);
+    is_not_null_test("Cylinders", attempt++);
+    is_not_null_test("Horsepower", attempt++);
+    is_not_null_test("Displacement", attempt++);
+    is_not_null_test("Weight_in_lbs", attempt++);
+    is_not_null_test("Acceleration", attempt++);
+  });
