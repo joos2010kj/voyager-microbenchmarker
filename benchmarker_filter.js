@@ -10,28 +10,9 @@ const util = require('vega-util'),
       fetch = require('node-fetch'),
       seedrandom = require('seedrandom'),
       { Transform } = require('./transform.js'),
-      { STAT, generate_examples } = require('./example_generator.js');
-
-/**
- * Convert String to Hash Code
- * 
- * @see http://stackoverflow.com/q/7616461/940217
- * @return {number}
- */
- String.prototype.hashCode = function(){
-  if (Array.prototype.reduce){
-      return this.split("").reduce(function(a,b){a=((a<<5)-a)+b.charCodeAt(0);return a&a},0);              
-  } 
-  var hash = 0;
-  if (this.length === 0) return hash;
-  for (var i = 0; i < this.length; i++) {
-      var character  = this.charCodeAt(i);
-      hash  = ((hash<<5)-hash)+character;
-      hash = hash & hash; // Convert to 32bit integer
-  }
-  return hash;
-}
-
+      { STAT, generate_examples } = require('./example_generator.js'),
+      { String } = require('./utils.js');
+        
 fetch("https://vega.github.io/vega-datasets/data/cars.json")
   .then(res => res.json())
   .then(data => {
