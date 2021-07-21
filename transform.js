@@ -213,6 +213,67 @@ class Transform {
             }
         }
 
+        static Merge(...children) {
+            if (children.length == 1) {
+                return children[0];
+            }
+
+            let child = children[0];
+
+            for (let i = 1; i < children.length; i++) {
+                child = this._merge(child, children[i]);
+            }
+
+            return child;
+        }
+
+        static _merge(obj1, obj2) {
+            let child = {}
+
+            function bothParentsHave(attr) {
+                let mom = attr in obj1;
+                let dad = attr in obj2;
+
+                if (mom && dad) {
+                if (obj1[attr] == obj2[attr]) {
+                    return 3;
+                } else {
+                    return 2;
+                }
+                } else if (mom || dad) {
+                if (mom) {
+                    return 1.25
+                } else {
+                    return 1.75
+                }
+                } else {
+                return 0;
+                }
+            }
+
+            function mix(attr) {
+                const score = bothParentsHave(attr);
+
+                if (score == 1.25) {
+                child[attr] = obj1[attr]
+                } else if (score == 1.75) {
+                child[attr] = obj2[attr]
+                } else if (score >= 2) {
+                child[attr] = [...obj1[attr], ...obj2[attr]]
+                }
+            }
+
+            if (bothParentsHave("type") == 3) {
+                child['type'] = obj1['type']
+            }
+
+            mix("fields")
+            mix("ops")
+            mix("groupby")
+
+            return child;
+        }
+
         static sandbox() {
             console.log(Transform.Aggregate.groupby("Miles_per_gallon"))
         }

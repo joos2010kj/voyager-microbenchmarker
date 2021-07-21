@@ -13,6 +13,53 @@ const util = require('vega-util'),
       { STAT, generate_examples } = require('./example_generator.js'),
       { String } = require('./utils.js');
 
+// function merge(obj1, obj2) {
+//   let child = {}
+
+//   function bothParentsHave(attr) {
+//     let mom = attr in obj1;
+//     let dad = attr in obj2;
+
+//     if (mom && dad) {
+//       if (obj1[attr] == obj2[attr]) {
+//         return 3;
+//       } else {
+//         return 2;
+//       }
+//     } else if (mom || dad) {
+//       if (mom) {
+//         return 1.25
+//       } else {
+//         return 1.75
+//       }
+//     } else {
+//       return 0;
+//     }
+//   }
+
+//   function mix(attr) {
+//     const score = bothParentsHave(attr);
+
+//     if (score == 1.25) {
+//       child[attr] = obj1[attr]
+//     } else if (score == 1.75) {
+//       child[attr] = obj2[attr]
+//     } else if (score >= 2) {
+//       child[attr] = [...obj1[attr], ...obj2[attr]]
+//     }
+//   }
+
+//   if (bothParentsHave("type") == 3) {
+//     child['type'] = obj1['type']
+//   }
+
+//   mix("fields")
+//   mix("ops")
+//   mix("groupby")
+
+//   return child;
+// }
+
 fetch("https://vega.github.io/vega-datasets/data/cars.json")
   .then(res => res.json())
   .then(data => {
@@ -56,58 +103,14 @@ fetch("https://vega.github.io/vega-datasets/data/cars.json")
     let valid = Transform.Aggregate.valid("hi")
     let prod = Transform.Aggregate.groupby("pro")
 
-    function merge(obj1, obj2) {
-      let child = {}
 
-      function bothParentsHave(attr) {
-        console.log("hi")
-        let mom = attr in obj1;
-        let dad = attr in obj2;
+    let child = Transform.Aggregate.Merge(
+      Transform.Aggregate.valid("yes"), 
+      Transform.Aggregate.sum("foo"),
+      Transform.Aggregate.groupby("bar")
+    );
 
-        if (mom && dad) {
-          if (obj1[attr] == obj2[attr]) {
-            return 3;
-          } else {
-            return 2;
-          }
-        } else if (mom || dad) {
-          if (mom) {
-            return 1.25
-          } else {
-            return 1.75
-          }
-        } else {
-          return 0;
-        }
-      }
-
-      function mix(attr) {
-        const score = bothParentsHave(attr);
-
-        if (score == 1.25) {
-          child[attr] = obj1[attr]
-        } else if (score == 1.75) {
-          child[attr] = obj2[attr]
-        } else if (score >= 2) {
-          child[attr] = [...obj1[attr], ...obj2[attr]]
-        }
-      }
-
-      if (bothParentsHave("type") == 3) {
-        child['type'] = obj1['type']
-      }
-
-      mix("fields")
-      mix("ops")
-      mix("groupby")
-
-      return child;
-    }
-
-    let child = merge(valid, prod);
-    console.log(child)
-
-    console.log(valid, prod)
+    console.log(child);
     
 
     // // -- test adds
