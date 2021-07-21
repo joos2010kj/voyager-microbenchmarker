@@ -1,0 +1,21 @@
+{
+  "name": "sv-benchmark",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^2.6.1",
+    "pg": "^8.6.0",
+    "pg-format": "^1.0.4",
+    "seedrandom": "^3.0.5",
+    "vega-dataflow": "^5.7.4",
+    "vega-statistics": "^1.7.9",
+    "vega-transforms": "^4.9.4",
+    "vega-util": "^1.16.1"
+  },
+  "scripts": {
+    "cleanup": "rm -rf .cache dist"
+  }
+}
