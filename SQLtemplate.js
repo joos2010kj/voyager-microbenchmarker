@@ -1,4 +1,3 @@
-var binning = require("./bin")
 const stat = require('vega-statistics')
 
 /**
@@ -33,11 +32,9 @@ class Transform {
       min = Transform.Filter.cast_type(min);
       max = Transform.Filter.cast_type(max);
 
-      return `
-      SELECT *
-      FROM %I
-      WHERE ${item} ${inclusive1 ? ">=" : ">"} ${min} AND ${item} ${inclusive2 ? "<=" : "<"} ${max}
-      `
+      return `SELECT *\
+      FROM %I\
+      WHERE ${item} ${inclusive1 ? ">=" : ">"} ${min} AND ${item} ${inclusive2 ? "<=" : "<"} ${max}`
     }
 
     // datum.Miles_per_Gallon < 15 || datum.Miles_per_Gallon > 20
@@ -45,11 +42,9 @@ class Transform {
       min = Transform.Filter.cast_type(min);
       max = Transform.Filter.cast_type(max);
 
-      return `
-      SELECT *
-      FROM %I
-      WHERE ${item} ${inclusive1 ? "<=" : "<"} ${min} OR ${item} ${inclusive2 ? ">=" : ">"} ${max}
-      `
+      return `SELECT *\
+      FROM %I\
+      WHERE ${item} ${inclusive1 ? "<=" : "<"} ${min} OR ${item} ${inclusive2 ? ">=" : ">"} ${max}`
     }
 
     // datum.Name == 'pontiac catalina brougham'
@@ -59,7 +54,7 @@ class Transform {
       return `
       SELECT *
       FROM %I
-      WHERE ${item} == ${value}
+      WHERE ${item} = ${value}
       `
     }
 

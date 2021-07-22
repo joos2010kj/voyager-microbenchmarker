@@ -21,22 +21,30 @@ const quan_col_stat = {
   "Acceleration": [15.51970443349754, 2.8033588163425462, 8, 24.8, 0]
 }
 
-const cat_col = { "origin": ['USA', 'Europe', 'Japan'] }
+const cat_col = { "Origin": ['USA', 'Europe', 'Japan'] }
 
 
 function random_choice(array, cnt = 1) {
   let res = [];
-  var t = array[Math.floor(rng() * array.length) % array.length];
+  // console.log(array)
+  //console.log(getRandomInteger(0, array.length - 1))
+  var t = array[getRandomInteger(0, array.length - 1)];
+
   while (!res.includes(t) && res.length < cnt) {
     res.push(t)
-    t = array[Math.floor(Math.random() * array.length) % array.length];
+    t = array[getRandomInteger(0, array.length - 1)];
   }
   return res;
 }
+function getRandomInteger(min, max) {
+
+  return Math.floor(min + randn() * (max + 1 - min))
+}
+
 function randn(min = 0, max = 1) {
   var u = 0;
   while (u === 1) u = rng()
-  return rng() * (max - min + 1) + min;
+  return rng() * (max - min) + min;
 }
 
 function generate_examples(stats) {
@@ -125,18 +133,18 @@ function filter_params() {
     sqlString = sqlTemplate.Transform.Filter.is_not_null(attr, min, inclusive1, max, inclusive2)
   }
 
-  return [expression, sqlString]
+  return { transform: 'filter', attr, expr: expression, sql: sqlString }
 
 }
 
-let res = []
-let iter = 10;
-for (var i = 0; i < iter; i++) {
-  res.push(filter_params())
-}
-console.log(res)
+// let res = []
+// let iter = 10;
+// for (var i = 0; i < iter; i++) {
+//   res.push(filter_params())
+// }
+// console.log(res)
 
 
 
 
-module.exports = { quan_col_stat, generate_examples };
+module.exports = { quan_col_stat, generate_examples, filter_params };

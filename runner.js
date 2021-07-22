@@ -8,14 +8,14 @@ const runnerPromise = async (func, args) => {
   timeElapsed = Math.round((timeElapsed + Number.EPSILON) * 100) / 100
   return {
     name: func.name,
-    timeElapsed,
+    runtime: timeElapsed,
     res
   };
 };
 
 function captureArgs(args) {
   const _args = [];
-  for (var it = 1; it < args.length; ++it)
+  for (var it = 1; it < args.length - 1; ++it)
     _args.push(args[it]);
   return _args;
 }
@@ -24,6 +24,7 @@ async function benchmarkPromise(func) {
   const args = captureArgs(arguments);
   for (var idx = 0; idx < iterations; ++idx) {
     const result = await runnerPromise(func, args);
+    result.transform = arguments[arguments.length - 1]
     accumulator.push(result);
   }
 }
@@ -38,7 +39,7 @@ const calculate = () => {
   }
 
   for (let timeBench of accumulator) {
-    functionTotalTime[timeBench.name].sum += timeBench.timeElapsed
+    functionTotalTime[timeBench.name].sum += timeBench.runtime
   }
 
   for (let name of functions) {
@@ -54,10 +55,11 @@ const show = () => {
   const represent = Object.keys(results)
     .map(key => ({
       name: key,
-      ms: results[key].average
+      ms: results[key].average,
     }));
 
   console.log(represent, "rep")
+  return accumulator;
 };
 
 let accumulator = [];
