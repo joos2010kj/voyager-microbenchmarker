@@ -1,7 +1,18 @@
 const getMs = ar => ar[0] * 1e3 + ar[1] / 1e6;
 
-const runnerPromise = async (func, args) => {
+// const runnerPromise = async (func, args) => {
 
+//   const init = getMs(process.hrtime());
+//   const res = await func.apply(null, args);
+//   let timeElapsed = getMs(process.hrtime()) - init;
+//   timeElapsed = Math.round((timeElapsed + Number.EPSILON) * 100) / 100
+//   return {
+//     name: func.name,
+//     runtime: timeElapsed,
+//     res
+//   };
+// };
+async function runnerPromise(func, args) {
   const init = getMs(process.hrtime());
   const res = await func.apply(null, args);
   let timeElapsed = getMs(process.hrtime()) - init;
@@ -11,7 +22,7 @@ const runnerPromise = async (func, args) => {
     runtime: timeElapsed,
     res
   };
-};
+}
 
 function captureArgs(args) {
   const _args = [];
@@ -50,7 +61,7 @@ const calculate = () => {
 };
 
 const show = () => {
-  console.log(accumulator, "acc")
+  //console.log(accumulator, "acc")
   const results = calculate();
   const represent = Object.keys(results)
     .map(key => ({

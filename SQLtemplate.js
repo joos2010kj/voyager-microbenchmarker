@@ -100,14 +100,14 @@ class Transform {
 
   static Aggregate = class {
     static build(params) {
-      const select = []
+      let select = []
       for (const ind in params.fields) {
         if (params.hasOwnProperty('op')) {
           select.push(params.fields[ind] === null ? Transform.Aggregate.aggregateOpToSql(params.op[ind], '*', "postgres") : Transform.Aggregate.aggregateOpToSql(params.op[ind], params.fields[ind], "postgres"))
         }
       }
       if (params.hasOwnProperty('groupby')) {
-        select.push(...params.groupby)
+        select = select.concat(params.groupby)
         return `
         SELECT ${select.join(", ")}\
         FROM %I\
@@ -143,6 +143,8 @@ class Transform {
       // FixMe: decide what to do for argmax, argmin, and confidence intervals (ci0, ci1).
       switch (op.toLowerCase()) {
         case "average":
+          return `AVG(${field})`;
+        case "mean":
           return `AVG(${field})`;
         case "count":
           return `COUNT(*)`;

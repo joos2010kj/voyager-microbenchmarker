@@ -29,9 +29,10 @@ function random_choice(array, cnt = 1) {
   // console.log(array)
   //console.log(getRandomInteger(0, array.length - 1))
   var t = array[getRandomInteger(0, array.length - 1)];
+  console.log(t, "undefine?")
 
-  while (!res.includes(t) && res.length < cnt) {
-    res.push(t)
+  while (res.length < cnt) {
+    if (!res.includes(t)) res.push(t)
     t = array[getRandomInteger(0, array.length - 1)];
   }
   return res;
@@ -137,14 +138,42 @@ function filter_params() {
 
 }
 
-// let res = []
-// let iter = 10;
-// for (var i = 0; i < iter; i++) {
-//   res.push(filter_params())
-// }
-// console.log(res)
+function aggregate_params() {
+
+  const op = random_choice(["count", "valid", "missing", "distinct", "sum", "mean", "average", "variance", "variancep", "stdev", "stdevp", "median", "min", "max"]);
+  //const col_choices = random_choice(Object.keys(quan_col_stat).concat(Object.keys(cat_col), ['None']), 2)
+
+  const groupby = random_choice(Object.keys(quan_col_stat).concat(Object.keys(cat_col), ['None']))
+  const field = random_choice(Object.keys(quan_col_stat))
+  let expr, sqlString;
+  //console.log(col_choices, "cols")
+
+  if (groupby == 'None') {
+    //let field = col_choices[0] === 'None' ? col_choices[1] : col_choices[0];
+    expr = { type: 'aggregate', ops: op, field: field }
+    sqlString = sqlTemplate.Transform.Aggregate.build({ fields: [field], op: op });
+  } else {
+    // expr = { type: 'aggregate', ops: op, field: [col_choices[0]], groupby: [col_choices[1]] }
+    // console.log([col_choices[1]], 'grou')
+
+    // sqlString = sqlTemplate.Transform.Aggregate.build({ fields: [col_choices[0]], op: op, groupby: [col_choices[1]] });
+    expr = { type: 'aggregate', ops: op, field: field, groupby: groupby }
+    //console.log([col_choices[1]], 'grou')
+
+    sqlString = sqlTemplate.Transform.Aggregate.build({ fields: [field], op: op, groupby: [groupby] });
+  }
+
+  return { transform: 'aggregate', expr: expr, sql: sqlString }
+
+}
+let res = []
+let iter = 10;
+for (var i = 0; i < iter; i++) {
+  res.push(aggregate_params())
+}
+console.log(res)
 
 
 
 
-module.exports = { quan_col_stat, generate_examples, filter_params };
+module.exports = { quan_col_stat, generate_examples, filter_params, aggregate_params };
