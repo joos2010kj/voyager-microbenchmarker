@@ -1,0 +1,46 @@
+{
+    "tables": {
+        "fact": {
+            "name": "cars",
+            "fields": [
+                {
+                    "field": "Name",
+                    "type": "categorical"
+                },
+                {
+                    "field": "Miles_per_Gallon",
+                    "type": "quantitative"
+                },
+                {
+                    "field": "Cylinders",
+                    "type": "quantitative"
+                },
+                {
+                    "field": "Displacement",
+                    "type": "quantitative"
+                },
+                {
+                    "field": "Horsepower",
+                    "type": "quantitative"
+                },
+                {
+                    "field": "Weight_in_lbs",
+                    "type": "quantitative"
+                },
+		        {
+                    "field": "Acceleration",
+                    "type": "quantitative"
+                },
+		        {
+                    "field": "Year",
+                    "type": "categorical"
+                },
+		        {
+                    "field": "Origin",
+                    "type": "categorical"
+                } 
+            ]
+        }
+        
+    }
+}
