@@ -1,3 +1,5 @@
+const assert = require('assert')
+
 class Transform {
     static Filter = class {
         static cast_type(value) {
@@ -82,6 +84,17 @@ class Transform {
             console.log(Transform.Filter.equal("Year", "2021-07-06"))
             console.log(Transform.Filter.is_null(obj))
             console.log(Transform.Filter.is_not_null(obj))
+        }
+
+        static commands() {
+            return [
+                "between(item, min, inclusive1, max, inclusive2)",
+                "not_between(item, min, inclusive1, max, inclusive2)",
+                "equal(item, value)",
+                "not_equal(item, value)",
+                "is_null(item)",
+                "is_not_null(item)"
+            ]
         }
     }
 
@@ -220,56 +233,11 @@ class Transform {
 
             let child = children[0];
 
+            const primaryAttributes = ['fields', 'ops', 'groupby'];
+
             for (let i = 1; i < children.length; i++) {
-                child = this._merge(child, children[i]);
+                child = Transform._merge(child, children[i], primaryAttributes);
             }
-
-            return child;
-        }
-
-        static _merge(obj1, obj2) {
-            let child = {}
-
-            function bothParentsHave(attr) {
-                let mom = attr in obj1;
-                let dad = attr in obj2;
-
-                if (mom && dad) {
-                if (obj1[attr] == obj2[attr]) {
-                    return 3;
-                } else {
-                    return 2;
-                }
-                } else if (mom || dad) {
-                if (mom) {
-                    return 1.25
-                } else {
-                    return 1.75
-                }
-                } else {
-                return 0;
-                }
-            }
-
-            function mix(attr) {
-                const score = bothParentsHave(attr);
-
-                if (score == 1.25) {
-                child[attr] = obj1[attr]
-                } else if (score == 1.75) {
-                child[attr] = obj2[attr]
-                } else if (score >= 2) {
-                child[attr] = [...obj1[attr], ...obj2[attr]]
-                }
-            }
-
-            if (bothParentsHave("type") == 3) {
-                child['type'] = obj1['type']
-            }
-
-            mix("fields")
-            mix("ops")
-            mix("groupby")
 
             return child;
         }
@@ -277,42 +245,174 @@ class Transform {
         static sandbox() {
             console.log(Transform.Aggregate.groupby("Miles_per_gallon"))
         }
+
+        static commands() {
+            return [
+                "count(item)",
+                "valid(item)",
+                "missing(item)",
+                "distinct(item)",
+                "sum(item)",
+                "product(item)",
+                "mean(item)",
+                "average(item)",
+                "variance(item)",
+                "variancep(item)",
+                "stdev(item)",
+                "stdevp(item)",
+                "median(item)",
+                "min(item)",
+                "max(item)",
+                "groupby(item)"
+            ]
+        }
     }
 
-    static Bin = class {
-        // bins: int
-        static maxbins(item, min, max, bins) {
-            return  { 
-                "type": "bin", 
-                "field": item, 
-                "extent": [min, max], 
-                "maxbins": bins
+    static Project = class {
+        static fields(item) {
+            return {
+                "type": "project",
+                "fields": [item]
             }
         }
 
-        // intervals: boolean
-        static interval(item, min, max, intervals) {
-            return  { 
-                "type": "bin", 
-                "field": item, 
-                "extent": [min, max],
-                "interval": intervals
+        static as(item, renamed) {
+            return {
+                "type": "project",
+                "fields": [item],
+                "as": [renamed]
             }
         }
 
-        // as: Boolean[2]
-        static as(item, min, max, as) {
-            return  { 
-                "type": "bin", 
-                "field": item, 
-                "extent": [min, max],
-                "interval": as
+        static Merge(...children) {
+            if (children.length == 1) {
+                return children[0];
+            }
+
+            let child = children[0];
+
+            const primaryAttributes = ['fields', 'as'];
+
+            for (let i = 1; i < children.length; i++) {
+                child = Transform._merge(child, children[i], primaryAttributes);
+            }
+
+            return child;
+        }
+
+        static commands() {
+            return [
+                "fields(item)",
+                "as(item, renamed)"
+            ]
+        }
+    }
+
+    static Collect = class {
+
+        // ascending order is used by default per documentation
+        static sort(item, order) {
+            if (order != undefined) {
+                assert.ok(['ascending', 'descending'].indexOf(order) > -1);
+            }
+
+            return {
+                "type": "collect",
+                "sort": {
+                    "field": [item],
+                    "order": [order == undefined ? 'ascending' : order]
+                }
             }
         }
 
-        static sandbox() {
-            console.log(Transform.Bin.maxbins("Miles_per_gallon", 0, 50, 10))
+        static Merge(...children) {
+            if (children.length == 1) {
+                return children[0];
+            }
+
+            let child = children[0];
+
+            const primaryAttributes = ['field', 'order'];
+
+            for (let i = 1; i < children.length; i++) {
+                child = Transform._merge(child["sort"], children[i]["sort"], primaryAttributes);
+            }
+
+            return {
+                "type": "collect",
+                "sort": child
+            };
         }
+        
+        static commands() {
+            return [
+                "sort(item, order)"
+            ]
+        }
+    }
+
+    static Extent = class {
+        static extent(field, signal) {
+            return signal == undefined ? {
+                "type": "extent",
+                "field": field
+            } : {
+                "type": "extent",
+                "field": field,
+                "signal": signal
+            } 
+        }
+
+        static commands() {
+            return [
+                "extent(field, signal)"
+            ]
+        }
+    }
+
+    static _merge(obj1, obj2, attributes) {
+        let child = {}
+
+        function bothParentsHave(attr) {
+            let mom = attr in obj1;
+            let dad = attr in obj2;
+
+            if (mom && dad) {
+                if (obj1[attr] == obj2[attr]) {
+                    return 3;
+                } else {
+                    return 2;
+                }
+            } else if (mom || dad) {
+                if (mom) {
+                    return 1.25
+                } else {
+                    return 1.75
+                }
+            } else {
+                return 0;
+            }
+        }
+
+        function mix(attr) {
+            const score = bothParentsHave(attr);
+
+            if (score == 1.25) {
+                child[attr] = obj1[attr]
+            } else if (score == 1.75) {
+                child[attr] = obj2[attr]
+            } else if (score >= 2) {
+                child[attr] = [...obj1[attr], ...obj2[attr]]
+            }
+        }
+
+        if (bothParentsHave("type") == 3) {
+            child['type'] = obj1['type']
+        }
+
+        attributes.forEach(attr => mix(attr))
+
+        return child;
     }
 }
 
