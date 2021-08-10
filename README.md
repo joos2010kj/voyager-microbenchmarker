@@ -14,11 +14,15 @@ In this project, we used [Crossfilter Benchmark](https://github.com/leibatt/cros
 2. open run.sh
 3. replace these three variables with your own paths:
    - input
-     - Input CSV file 
+     - Input CSV file (default: cars dataset)
    - metadata
-     - JSON file specifying the type of each attribute
+     - JSON file specifying the type of each attribute (default: cars dataset's metadata)
    - output
-     - Where you want the generated csv file to be saved
+     - Where you want the generated csv file to be saved, including the file name (default: root/crossfilter-benchmark/result.csv)
+   - seed
+     - Random seed in integer (default: 41001)
+   - size
+     - Size of the generated output (default: 10000)
 4. run ./run.sh
 
 #### Testing with a Sample Input
