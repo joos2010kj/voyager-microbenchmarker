@@ -19,34 +19,55 @@ function save_chart(data, dest) {
       "values": data
     },
     "transform": [
-      { "calculate": "datum.name == 'vg' ? 'Vega' : 'Postgres'", "as": "application" }
+      {
+        "calculate": "datum.name == 'vg' ? 'Vega' : datum.name == 'duck'?'duckdb':'Postgres'",
+        "as": "application"
+      }
     ],
-    "width": { "step": 12 },
     "mark": "bar",
     "encoding": {
-      "column": {
-        "field": "transform", "type": "nominal", "spacing": 10
+      "x": {
+        "field": "application",
+        "axis": {
+          "title": ""
+        }
       },
       "y": {
         "aggregate": "average",
         "field": "runtime",
-        "title": "runtime",
-        "axis": { "grid": false }
+        "title": "Runtime(ms)",
+        "axis": {
+          "grid": false
+        },
+        "scale": {
+          "type": "log"
+        }
       },
-      "x": {
-        "field": "application",
-        "axis": { "title": "" }
+      "column": {
+        "field": "transform",
+        "type": "nominal",
+        "spacing": 10,
+        "title": "Transform"
+      },
+      "row": {
+        "field": "dataset",
+        "title": "Dataset Size"
       },
       "color": {
-        "field": "application",
-        "scale": { "range": ["#216d96", "#675193"] }
+        "field": "application"
       }
     },
     "config": {
-      "view": { "stroke": "transparent" },
-      "axis": { "domainWidth": 1 }
+      "view": {
+        "stroke": "transparent"
+      },
+      "axis": {
+        "domainWidth": 1
+      }
     }
   };
+
+
 
   fs.writeFile(dest, JSON.stringify(spec), function (err) {
     if (err) {

@@ -26,7 +26,7 @@ async function runnerPromise(func, args) {
 
 function captureArgs(args) {
   const _args = [];
-  for (var it = 1; it < args.length - 1; ++it)
+  for (var it = 1; it < args.length - 2; ++it)
     _args.push(args[it]);
   return _args;
 }
@@ -35,7 +35,9 @@ async function benchmarkPromise(func) {
   const args = captureArgs(arguments);
   for (var idx = 0; idx < iterations; ++idx) {
     const result = await runnerPromise(func, args);
-    result.transform = arguments[arguments.length - 1]
+    result.transform = arguments[arguments.length - 2]
+    result.dataset = arguments[arguments.length - 1]
+
     accumulator.push(result);
   }
 }
@@ -62,14 +64,14 @@ const calculate = () => {
 
 const show = () => {
   //console.log(accumulator, "acc")
-  const results = calculate();
-  const represent = Object.keys(results)
-    .map(key => ({
-      name: key,
-      ms: results[key].average,
-    }));
+  // const results = calculate();
+  // const represent = Object.keys(results)
+  //   .map(key => ({
+  //     name: key,
+  //     ms: results[key].average,
+  //   }));
 
-  console.log(represent, "rep")
+  //console.log(represent, "rep")
   return accumulator;
 };
 

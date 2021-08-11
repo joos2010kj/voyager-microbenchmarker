@@ -1,4 +1,5 @@
 const stat = require('vega-statistics')
+const { array } = require('vega-util')
 
 /**
  * Filter
@@ -99,11 +100,11 @@ class Transform {
   }
 
   static Aggregate = class {
-    static build(params) {
+    static build(params, db) {
       let select = []
       for (const ind in params.fields) {
         if (params.hasOwnProperty('op')) {
-          select.push(params.fields[ind] === null ? Transform.Aggregate.aggregateOpToSql(params.op[ind], '*', "postgres") : Transform.Aggregate.aggregateOpToSql(params.op[ind], params.fields[ind], "postgres"))
+          select.push(params.fields[ind] === null ? Transform.Aggregate.aggregateOpToSql(params.op[ind], '*', db) : Transform.Aggregate.aggregateOpToSql(params.op[ind], params.fields[ind], db))
         }
       }
       if (params.hasOwnProperty('groupby')) {
@@ -132,6 +133,7 @@ class Transform {
         default:
           throw Error(`Unsupported database: ${db}`);
       }
+      //return { duck: `QUANTILE(${field}, ${fraction})`, 'pg': `PERCENTILE_CONT(${fraction}) WITHIN GROUP (ORDER BY ${field})` }
     }
 
     static aggregateOpToSql(op, field, db) {
@@ -200,7 +202,7 @@ class Transform {
       )
 
       console.log(bin)
-      return `select bin0 + ${bin.step} as bin1 , * from (select ${bin.step} * floor(cast(${item} as float)/ ${bin.step}) as bin0, * from %I where ${item} between ${bin.start} and ${bin.stop}) as sub UNION ALL select NULL as bin0, NULL as bin1, * from %I where ${item} is null`
+      return `select bin0 + ${bin.step} as bin1 , * from (select ${bin.step} * floor((${item} - cast(${bin.start} as float))/ ${bin.step}) as bin0, * from %I where ${item} between ${bin.start} and ${bin.stop}) as sub UNION ALL select NULL as bin0, NULL as bin1, * from %I where ${item} is null`
     }
 
     static sandbox() {
@@ -223,7 +225,7 @@ class Transform {
     static fields(items, as) {
       const list = []
       for (const id in items) {
-        list.push(`${fields[id]} as ${as[id]}`)
+        list.push(`${items[id]} as ${as[id]}`)
       }
 
       return `select ${list.join(",")} from %I`
@@ -234,16 +236,44 @@ class Transform {
     }
   }
 
+  static Collect = class {
+    static sort(sort, order) {
+      order = order === 'descending' ? 'DESC' : ''
+
+
+      return `select * from %I order by ${sort} ${order}`
+    }
+
+    static sandbox() {
+      console.log(Transform.Project.fields(["Miles_per_gallon"], ["m1"]))
+    }
+  }
+
   static Stack = class {
-    static property(field, groupby, sort, as) {
+    static property(transform) {
+      // const orderList = []
+      // for (const [index, field] of sort.entries()) {
+
+      //   orderList.push(index < order.length ? (order[index] === 'descending' ? `${field} DESC` : `${field}`) : `${field}`)
+
+      // }
+      const field = transform.field
+      const groupby = (transform.groupby)
+      const as = transform.as ? transform.as : ['y0', 'y1']
+      const sort = array(transform.sort.field)
+      const order = array(transform.sort.order)
+      order.map(x => x === 'descending' ? 'DESC' : 'ASC')
       const orderList = []
+
+
       for (const [index, field] of sort.entries()) {
 
         orderList.push(index < order.length ? (order[index] === 'descending' ? `${field} DESC` : `${field}`) : `${field}`)
 
       }
 
-      return `select *, ${as[1]} - ${field} as ${as[0]} from (select *, sum(${fields}) over (partition by ${groupby.join(",")} order by ${orderList.join(",")}) ${as[1]} from ${from}) t`
+
+      return `select *, ${as[1]} - ${field} as ${as[0]} from (select *, sum(${field}) over (partition by ${groupby.join(",")} order by ${orderList.join(",")}) ${as[1]} from %I) t`
     }
 
     static sandbox() {
@@ -258,3 +288,10 @@ module.exports = { Transform }
 // console.log(Transform.Aggregate.build({ fields: ["Miles_per_Gallon"], op: ["average"], groupby: ["cylinders"] }))
 
 // console.log(Transform.Bin.maxbins("Miles_per_gallon", 0, 50, 10))
+// let expr = {
+//   type: 'stack', field: "hey", groupby: ["hello"], "sort": {
+//     "field": ["v"],
+//     "order": ["descending"]
+//   }
+// }
+// console.log(Transform.Stack.property(expr))

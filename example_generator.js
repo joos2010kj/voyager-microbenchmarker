@@ -151,7 +151,8 @@ function aggregate_params() {
   if (groupby == 'None') {
     //let field = col_choices[0] === 'None' ? col_choices[1] : col_choices[0];
     expr = { type: 'aggregate', ops: op, field: field }
-    sqlString = sqlTemplate.Transform.Aggregate.build({ fields: [field], op: op });
+    //sqlString = sqlTemplate.Transform.Aggregate.build({ fields: [field], op: op });
+    sqlString = { pg: sqlTemplate.Transform.Aggregate.build({ fields: [field], op: op }, "postgres"), duck: sqlTemplate.Transform.Aggregate.build({ fields: [field], op: op }, "duckdb") };
   } else {
     // expr = { type: 'aggregate', ops: op, field: [col_choices[0]], groupby: [col_choices[1]] }
     // console.log([col_choices[1]], 'grou')
@@ -160,20 +161,79 @@ function aggregate_params() {
     expr = { type: 'aggregate', ops: op, field: field, groupby: groupby }
     //console.log([col_choices[1]], 'grou')
 
-    sqlString = sqlTemplate.Transform.Aggregate.build({ fields: [field], op: op, groupby: [groupby] });
+    sqlString = { pg: sqlTemplate.Transform.Aggregate.build({ fields: [field], op: op, groupby: [groupby] }, "postgres"), duck: sqlTemplate.Transform.Aggregate.build({ fields: [field], op: op, groupby: [groupby] }, "duckdb") };
   }
 
   return { transform: 'aggregate', expr: expr, sql: sqlString }
 
 }
-let res = []
-let iter = 10;
-for (var i = 0; i < iter; i++) {
-  res.push(aggregate_params())
+
+function numBins(metric, defaultBins) {
+  var h = binWidth(metric), ulim = Math.max.apply(Math, metric), llim = Math.min.apply(Math, metric);
+  if (h <= (ulim - llim) / metric.length) {
+    return defaultBins || 10; // Fix num bins if binWidth yields too small a value.
+  }
+  return Math.ceil((ulim - llim) / h);
 }
-console.log(res)
+
+function binWidth(metric) {
+  return 2 * iqr(metric) * Math.pow(metric.length, -1 / 3);
+}
+
+function iqr(metric) {
+  var sorted = metric.slice(0).sort(function (a, b) { return a - b; });
+  var q1 = sorted[Math.floor(sorted.length / 4)];
+  var q3 = sorted[Math.floor(sorted.length * 3 / 4)];
+  return q3 - q1;
+}
+
+function bin_params() {
+  const field = random_choice(Object.keys(quan_col_stat))
+  const extent = [quan_col_stat[field][2], quan_col_stat[field][3]]
+  const maxbins = 5 //for now
+  expr = { type: 'bin', field: field, extent: extent, maxbins: maxbins }
+  sqlString = sqlTemplate.Transform.Bin.maxbins(field, extent[0], extent[1], maxbins)
+  return { transform: 'bin', expr: expr, sql: sqlString }
+}
+
+function stack_params() {
+  const [groupby] = random_choice(Object.keys(quan_col_stat).concat(Object.keys(cat_col)))
+  function select_sort(except) {
+    var res = random_choice(Object.keys(quan_col_stat).concat(Object.keys(cat_col)));
+    while (res == groupby) {
+      res = random_choice(Object.keys(quan_col_stat).concat(Object.keys(cat_col)))
+    }
+    return res;
+  }
+
+  function select_field(except) {
+    var res = random_choice(Object.keys(quan_col_stat));
+    while (res == groupby) {
+      res = random_choice(Object.keys(quan_col_stat))
+    }
+    return res;
+  }
+  const [sort] = select_sort();
+  const [field] = select_field();
+
+  let expr = {
+    type: 'stack', field: field, groupby: [groupby], "sort": {
+      "field": [sort],
+      "order": ["descending"]
+    }
+  }
+  sqlString = sqlTemplate.Transform.Stack.property(expr)
+  return { transform: 'stack', expr: expr, sql: sqlString }
+}
+
+// let res = []
+// let iter = 10;
+// for (var i = 0; i < iter; i++) {
+//   res.push(aggregate_params())
+// }
+// console.log(res)
 
 
 
 
-module.exports = { quan_col_stat, generate_examples, filter_params, aggregate_params };
+module.exports = { quan_col_stat, generate_examples, filter_params, aggregate_params, bin_params, stack_params };
