@@ -1,0 +1,5933 @@
+{
+  "data": {
+    "values": [
+      {
+        "name": "vg",
+        "runtime": 496.35,
+        "res": 625125,
+        "transform": "filter",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 2510.13,
+        "res": 625125,
+        "transform": "filter",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 2540.76,
+        "res": 625125,
+        "transform": "filter",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 808.38,
+        "res": 719599,
+        "transform": "filter",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 2649.04,
+        "res": 719599,
+        "transform": "filter",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 2234.64,
+        "res": 719599,
+        "transform": "filter",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 448.07,
+        "res": 1000000,
+        "transform": "filter",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 4133.55,
+        "res": 1000000,
+        "transform": "filter",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 3387.91,
+        "res": 1000000,
+        "transform": "filter",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 505.62,
+        "res": 766,
+        "transform": "filter",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 76.91,
+        "res": 766,
+        "transform": "filter",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 217.74,
+        "res": 766,
+        "transform": "filter",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 562.61,
+        "res": 798193,
+        "transform": "filter",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 3605.91,
+        "res": 798193,
+        "transform": "filter",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 2544.98,
+        "res": 798193,
+        "transform": "filter",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 499.68,
+        "res": 1000000,
+        "transform": "filter",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 3751.34,
+        "res": 1000000,
+        "transform": "filter",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 3117.44,
+        "res": 1000000,
+        "transform": "filter",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 457.76,
+        "res": 1000000,
+        "transform": "filter",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 3980.97,
+        "res": 1000000,
+        "transform": "filter",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 3581.81,
+        "res": 1000000,
+        "transform": "filter",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 504.94,
+        "res": 0,
+        "transform": "filter",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 81.43,
+        "res": 0,
+        "transform": "filter",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 145.69,
+        "res": 0,
+        "transform": "filter",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 504.5,
+        "res": 656279,
+        "transform": "filter",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 2524.34,
+        "res": 656279,
+        "transform": "filter",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 2444.72,
+        "res": 656279,
+        "transform": "filter",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 475.61,
+        "res": 0,
+        "transform": "filter",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 66.93,
+        "res": 0,
+        "transform": "filter",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.6,
+        "res": 0,
+        "transform": "filter",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 722.8,
+        "res": 3581,
+        "transform": "aggregate",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 149.78,
+        "res": 3581,
+        "transform": "aggregate",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 908.95,
+        "res": 3581,
+        "transform": "aggregate",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 496.52,
+        "res": 167,
+        "transform": "aggregate",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 118.89,
+        "res": 167,
+        "transform": "aggregate",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 85.81,
+        "res": 167,
+        "transform": "aggregate",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 896.78,
+        "res": 25412,
+        "transform": "aggregate",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 211.63,
+        "res": 25412,
+        "transform": "aggregate",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 7099.94,
+        "res": 25412,
+        "transform": "aggregate",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 657.12,
+        "res": 3581,
+        "transform": "aggregate",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 755.32,
+        "res": 3581,
+        "transform": "aggregate",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 25661.82,
+        "res": 3581,
+        "transform": "aggregate",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 896.28,
+        "res": 3581,
+        "transform": "aggregate",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 123.07,
+        "res": 3581,
+        "transform": "aggregate",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 1160.58,
+        "res": 3581,
+        "transform": "aggregate",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 929.43,
+        "res": 25412,
+        "transform": "aggregate",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 803.18,
+        "res": 25412,
+        "transform": "aggregate",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 57243.42,
+        "res": 25412,
+        "transform": "aggregate",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 1140.12,
+        "res": 25412,
+        "transform": "aggregate",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 248.76,
+        "res": 25412,
+        "transform": "aggregate",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 6742.3,
+        "res": 25412,
+        "transform": "aggregate",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 183.2,
+        "res": 1,
+        "transform": "aggregate",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 328.67,
+        "res": 1,
+        "transform": "aggregate",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 31.79,
+        "res": 1,
+        "transform": "aggregate",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 1123.12,
+        "res": 25412,
+        "transform": "aggregate",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 232.65,
+        "res": 25412,
+        "transform": "aggregate",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 7125.78,
+        "res": 25412,
+        "transform": "aggregate",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 523.32,
+        "res": 354,
+        "transform": "aggregate",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 218.48,
+        "res": 354,
+        "transform": "aggregate",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 152.38,
+        "res": 354,
+        "transform": "aggregate",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 319.51,
+        "res": 1000000,
+        "transform": "bin",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 5365.86,
+        "res": 1000000,
+        "transform": "bin",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 4451.09,
+        "res": 1000000,
+        "transform": "bin",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 278.61,
+        "res": 1000000,
+        "transform": "bin",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 5079.37,
+        "res": 1000000,
+        "transform": "bin",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 3605.91,
+        "res": 1000000,
+        "transform": "bin",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 256.37,
+        "res": 1000000,
+        "transform": "bin",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 4190.12,
+        "res": 850316,
+        "transform": "bin",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 3737.4,
+        "res": 850316,
+        "transform": "bin",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 270.83,
+        "res": 1000000,
+        "transform": "bin",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 3916.89,
+        "res": 584562,
+        "transform": "bin",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 2463.77,
+        "res": 584562,
+        "transform": "bin",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 259.65,
+        "res": 1000000,
+        "transform": "bin",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 4556.72,
+        "res": 1000000,
+        "transform": "bin",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 3761.79,
+        "res": 1000000,
+        "transform": "bin",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 262.06,
+        "res": 1000000,
+        "transform": "bin",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 4530,
+        "res": 850316,
+        "transform": "bin",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 3381.88,
+        "res": 850316,
+        "transform": "bin",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 255.19,
+        "res": 1000000,
+        "transform": "bin",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 5872.26,
+        "res": 1000000,
+        "transform": "bin",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 3652.48,
+        "res": 1000000,
+        "transform": "bin",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 249.24,
+        "res": 1000000,
+        "transform": "bin",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 3754.34,
+        "res": 850316,
+        "transform": "bin",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 3078.5,
+        "res": 850316,
+        "transform": "bin",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 250.41,
+        "res": 1000000,
+        "transform": "bin",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 3796.23,
+        "res": 850316,
+        "transform": "bin",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 3622.68,
+        "res": 850316,
+        "transform": "bin",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 549.63,
+        "res": 1000000,
+        "transform": "bin",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 3469.19,
+        "res": 584562,
+        "transform": "bin",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 2344.75,
+        "res": 584562,
+        "transform": "bin",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 2592.81,
+        "res": 1000000,
+        "transform": "stack",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 5126.82,
+        "res": 1000000,
+        "transform": "stack",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 8779,
+        "res": 1000000,
+        "transform": "stack",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 2586.14,
+        "res": 1000000,
+        "transform": "stack",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 6001.13,
+        "res": 1000000,
+        "transform": "stack",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 11632.95,
+        "res": 1000000,
+        "transform": "stack",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 2956.14,
+        "res": 1000000,
+        "transform": "stack",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 5705.93,
+        "res": 1000000,
+        "transform": "stack",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 10310.06,
+        "res": 1000000,
+        "transform": "stack",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 2802.57,
+        "res": 1000000,
+        "transform": "stack",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 6865.73,
+        "res": 1000000,
+        "transform": "stack",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 10874.62,
+        "res": 1000000,
+        "transform": "stack",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 2280.56,
+        "res": 1000000,
+        "transform": "stack",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 5238.31,
+        "res": 1000000,
+        "transform": "stack",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 11902.49,
+        "res": 1000000,
+        "transform": "stack",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 3960.87,
+        "res": 1000000,
+        "transform": "stack",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 10143.73,
+        "res": 1000000,
+        "transform": "stack",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 13789.2,
+        "res": 1000000,
+        "transform": "stack",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 3387.21,
+        "res": 1000000,
+        "transform": "stack",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 6218.58,
+        "res": 1000000,
+        "transform": "stack",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 11308.21,
+        "res": 1000000,
+        "transform": "stack",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 2756.41,
+        "res": 1000000,
+        "transform": "stack",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 7582.24,
+        "res": 1000000,
+        "transform": "stack",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 12186.27,
+        "res": 1000000,
+        "transform": "stack",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 4012.78,
+        "res": 1000000,
+        "transform": "stack",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 6982.42,
+        "res": 1000000,
+        "transform": "stack",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 9227.94,
+        "res": 1000000,
+        "transform": "stack",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 3044.81,
+        "res": 1000000,
+        "transform": "stack",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 10430.93,
+        "res": 1000000,
+        "transform": "stack",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 14754.4,
+        "res": 1000000,
+        "transform": "stack",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 302.99,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 98.17,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 15.96,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 329.49,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 99.77,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 14.06,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 279.53,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 127.25,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 16.92,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 326.32,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 127.71,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 17.39,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 371.19,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 152.93,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 21.78,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 383.96,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 131.42,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 18.98,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 407.66,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 167.36,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 20.72,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 395.64,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 185.59,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 19.17,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 434.22,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 196.86,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 23.96,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 438.36,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 170.56,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 25.35,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 980.15,
+        "res": 1000000,
+        "transform": "project",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 1732.75,
+        "res": 1000000,
+        "transform": "project",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 1752.58,
+        "res": 1000000,
+        "transform": "project",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 1181.61,
+        "res": 1000000,
+        "transform": "project",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 1712.67,
+        "res": 1000000,
+        "transform": "project",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 2072.61,
+        "res": 1000000,
+        "transform": "project",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 2187.53,
+        "res": 1000000,
+        "transform": "project",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 1721.11,
+        "res": 1000000,
+        "transform": "project",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 1135.37,
+        "res": 1000000,
+        "transform": "project",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 727.26,
+        "res": 1000000,
+        "transform": "project",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 1072.63,
+        "res": 1000000,
+        "transform": "project",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 1004.87,
+        "res": 1000000,
+        "transform": "project",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 638.84,
+        "res": 1000000,
+        "transform": "project",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 939.22,
+        "res": 1000000,
+        "transform": "project",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 1245.09,
+        "res": 1000000,
+        "transform": "project",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 715.63,
+        "res": 1000000,
+        "transform": "project",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 1180.75,
+        "res": 1000000,
+        "transform": "project",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 1071.64,
+        "res": 1000000,
+        "transform": "project",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 745.49,
+        "res": 1000000,
+        "transform": "project",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 1268.36,
+        "res": 1000000,
+        "transform": "project",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 1031.2,
+        "res": 1000000,
+        "transform": "project",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 1376.06,
+        "res": 1000000,
+        "transform": "project",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 1266.35,
+        "res": 1000000,
+        "transform": "project",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 970.54,
+        "res": 1000000,
+        "transform": "project",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 641.82,
+        "res": 1000000,
+        "transform": "project",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 1162.42,
+        "res": 1000000,
+        "transform": "project",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 1219.54,
+        "res": 1000000,
+        "transform": "project",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 771.24,
+        "res": 1000000,
+        "transform": "project",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 1331.97,
+        "res": 1000000,
+        "transform": "project",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 1527.78,
+        "res": 1000000,
+        "transform": "project",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 2097.67,
+        "res": 1000000,
+        "transform": "collect",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 7235.07,
+        "res": 1000000,
+        "transform": "collect",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 4312.58,
+        "res": 1000000,
+        "transform": "collect",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 3726.03,
+        "res": 1000000,
+        "transform": "collect",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 9583.18,
+        "res": 1000000,
+        "transform": "collect",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 5512.62,
+        "res": 1000000,
+        "transform": "collect",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 1722.2,
+        "res": 1000000,
+        "transform": "collect",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 7252.1,
+        "res": 1000000,
+        "transform": "collect",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 4138.18,
+        "res": 1000000,
+        "transform": "collect",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 1772.79,
+        "res": 1000000,
+        "transform": "collect",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 4619.76,
+        "res": 1000000,
+        "transform": "collect",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 7364.9,
+        "res": 1000000,
+        "transform": "collect",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 2369.46,
+        "res": 1000000,
+        "transform": "collect",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 7927.69,
+        "res": 1000000,
+        "transform": "collect",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 5673.74,
+        "res": 1000000,
+        "transform": "collect",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 1403.9,
+        "res": 1000000,
+        "transform": "collect",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 7665.79,
+        "res": 1000000,
+        "transform": "collect",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 8272.01,
+        "res": 1000000,
+        "transform": "collect",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 3506.55,
+        "res": 1000000,
+        "transform": "collect",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 7292.4,
+        "res": 1000000,
+        "transform": "collect",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 4865.43,
+        "res": 1000000,
+        "transform": "collect",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 1463.66,
+        "res": 1000000,
+        "transform": "collect",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 6320.33,
+        "res": 1000000,
+        "transform": "collect",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 4472.86,
+        "res": 1000000,
+        "transform": "collect",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 1139.98,
+        "res": 1000000,
+        "transform": "collect",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 4593.45,
+        "res": 1000000,
+        "transform": "collect",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 5032.13,
+        "res": 1000000,
+        "transform": "collect",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 2387.75,
+        "res": 1000000,
+        "transform": "collect",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "postgres",
+        "runtime": 4526.32,
+        "res": 1000000,
+        "transform": "collect",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "duck",
+        "runtime": 4024.75,
+        "res": 1000000,
+        "transform": "collect",
+        "dataset": "car_1m"
+      },
+      {
+        "name": "vg",
+        "runtime": 83.2,
+        "res": 86032,
+        "transform": "filter",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 356.17,
+        "res": 86032,
+        "transform": "filter",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 337.93,
+        "res": 86032,
+        "transform": "filter",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 95.01,
+        "res": 37487,
+        "transform": "filter",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 159.35,
+        "res": 37487,
+        "transform": "filter",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 140.36,
+        "res": 37487,
+        "transform": "filter",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 109.88,
+        "res": 0,
+        "transform": "filter",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 19.25,
+        "res": 0,
+        "transform": "filter",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 0.4,
+        "res": 0,
+        "transform": "filter",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 118.23,
+        "res": 1709,
+        "transform": "filter",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 21.4,
+        "res": 1709,
+        "transform": "filter",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 22.23,
+        "res": 1709,
+        "transform": "filter",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 51.47,
+        "res": 100000,
+        "transform": "filter",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 419.2,
+        "res": 100000,
+        "transform": "filter",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 341.22,
+        "res": 100000,
+        "transform": "filter",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 56.97,
+        "res": 100000,
+        "transform": "filter",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 418.33,
+        "res": 100000,
+        "transform": "filter",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 349.56,
+        "res": 100000,
+        "transform": "filter",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 85.86,
+        "res": 46406,
+        "transform": "filter",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 190.32,
+        "res": 46406,
+        "transform": "filter",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 177.77,
+        "res": 46406,
+        "transform": "filter",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 110.4,
+        "res": 1,
+        "transform": "filter",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 18.42,
+        "res": 1,
+        "transform": "filter",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 17.62,
+        "res": 1,
+        "transform": "filter",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 73.91,
+        "res": 62513,
+        "transform": "filter",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 263.61,
+        "res": 62513,
+        "transform": "filter",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 217.28,
+        "res": 62513,
+        "transform": "filter",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 63.63,
+        "res": 68810,
+        "transform": "filter",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 274.14,
+        "res": 68810,
+        "transform": "filter",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 241.07,
+        "res": 68810,
+        "transform": "filter",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 29.89,
+        "res": 3,
+        "transform": "aggregate",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 34.69,
+        "res": 3,
+        "transform": "aggregate",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 8.13,
+        "res": 3,
+        "transform": "aggregate",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 131,
+        "res": 19337,
+        "transform": "aggregate",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 67.18,
+        "res": 19337,
+        "transform": "aggregate",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 687.63,
+        "res": 19337,
+        "transform": "aggregate",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 85.26,
+        "res": 1643,
+        "transform": "aggregate",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 76.6,
+        "res": 1643,
+        "transform": "aggregate",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 46.31,
+        "res": 1643,
+        "transform": "aggregate",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 66.32,
+        "res": 354,
+        "transform": "aggregate",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 32.61,
+        "res": 354,
+        "transform": "aggregate",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 14.95,
+        "res": 354,
+        "transform": "aggregate",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 73.11,
+        "res": 3480,
+        "transform": "aggregate",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 35.21,
+        "res": 3480,
+        "transform": "aggregate",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 95.07,
+        "res": 3480,
+        "transform": "aggregate",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 61.68,
+        "res": 51,
+        "transform": "aggregate",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 27.3,
+        "res": 51,
+        "transform": "aggregate",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 5.81,
+        "res": 51,
+        "transform": "aggregate",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 26.52,
+        "res": 3,
+        "transform": "aggregate",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 33.58,
+        "res": 3,
+        "transform": "aggregate",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 6.99,
+        "res": 3,
+        "transform": "aggregate",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 18.93,
+        "res": 3,
+        "transform": "aggregate",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 32.47,
+        "res": 3,
+        "transform": "aggregate",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 7.62,
+        "res": 3,
+        "transform": "aggregate",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 21.89,
+        "res": 3,
+        "transform": "aggregate",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 82.45,
+        "res": 3,
+        "transform": "aggregate",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 10.39,
+        "res": 3,
+        "transform": "aggregate",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 62.19,
+        "res": 51,
+        "transform": "aggregate",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 80.72,
+        "res": 51,
+        "transform": "aggregate",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 1652.11,
+        "res": 51,
+        "transform": "aggregate",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 21.19,
+        "res": 100000,
+        "transform": "bin",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 196.59,
+        "res": 40880,
+        "transform": "bin",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 163.73,
+        "res": 40880,
+        "transform": "bin",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 17.06,
+        "res": 100000,
+        "transform": "bin",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 448.79,
+        "res": 100000,
+        "transform": "bin",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 379.76,
+        "res": 100000,
+        "transform": "bin",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 16.52,
+        "res": 100000,
+        "transform": "bin",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 454.18,
+        "res": 100000,
+        "transform": "bin",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 386.88,
+        "res": 100000,
+        "transform": "bin",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 16.5,
+        "res": 100000,
+        "transform": "bin",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 451.16,
+        "res": 100000,
+        "transform": "bin",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 358.51,
+        "res": 100000,
+        "transform": "bin",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 16.88,
+        "res": 100000,
+        "transform": "bin",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 195.04,
+        "res": 40880,
+        "transform": "bin",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 164.22,
+        "res": 40880,
+        "transform": "bin",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 15.86,
+        "res": 100000,
+        "transform": "bin",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 263.69,
+        "res": 58788,
+        "transform": "bin",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 232.99,
+        "res": 58788,
+        "transform": "bin",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 16.75,
+        "res": 100000,
+        "transform": "bin",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 679.95,
+        "res": 84926,
+        "transform": "bin",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 330.9,
+        "res": 84926,
+        "transform": "bin",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 30.22,
+        "res": 100000,
+        "transform": "bin",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 488.97,
+        "res": 100000,
+        "transform": "bin",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 380.03,
+        "res": 100000,
+        "transform": "bin",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 25.65,
+        "res": 100000,
+        "transform": "bin",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 478.72,
+        "res": 100000,
+        "transform": "bin",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 384.95,
+        "res": 100000,
+        "transform": "bin",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 16.83,
+        "res": 100000,
+        "transform": "bin",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 200.43,
+        "res": 40880,
+        "transform": "bin",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 169.31,
+        "res": 40880,
+        "transform": "bin",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 279.57,
+        "res": 100000,
+        "transform": "stack",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 690.95,
+        "res": 100000,
+        "transform": "stack",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 1044.88,
+        "res": 100000,
+        "transform": "stack",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 240.35,
+        "res": 100000,
+        "transform": "stack",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 578.35,
+        "res": 100000,
+        "transform": "stack",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 908.03,
+        "res": 100000,
+        "transform": "stack",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 236.17,
+        "res": 100000,
+        "transform": "stack",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 594.03,
+        "res": 100000,
+        "transform": "stack",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 903.58,
+        "res": 100000,
+        "transform": "stack",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 227.18,
+        "res": 100000,
+        "transform": "stack",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 561.39,
+        "res": 100000,
+        "transform": "stack",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 806,
+        "res": 100000,
+        "transform": "stack",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 216.29,
+        "res": 100000,
+        "transform": "stack",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 612.8,
+        "res": 100000,
+        "transform": "stack",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 1007.1,
+        "res": 100000,
+        "transform": "stack",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 215.19,
+        "res": 100000,
+        "transform": "stack",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 577.81,
+        "res": 100000,
+        "transform": "stack",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 967.78,
+        "res": 100000,
+        "transform": "stack",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 233.08,
+        "res": 100000,
+        "transform": "stack",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 559.45,
+        "res": 100000,
+        "transform": "stack",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 816.51,
+        "res": 100000,
+        "transform": "stack",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 233.5,
+        "res": 100000,
+        "transform": "stack",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 582.66,
+        "res": 100000,
+        "transform": "stack",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 826.82,
+        "res": 100000,
+        "transform": "stack",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 246.55,
+        "res": 100000,
+        "transform": "stack",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 582.73,
+        "res": 100000,
+        "transform": "stack",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 938.02,
+        "res": 100000,
+        "transform": "stack",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 232.24,
+        "res": 100000,
+        "transform": "stack",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 563.17,
+        "res": 100000,
+        "transform": "stack",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 805.58,
+        "res": 100000,
+        "transform": "stack",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 25.07,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 20.51,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.69,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 16.38,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 19.28,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.43,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 16.03,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 19.88,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 2.32,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 15.12,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 20.38,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 2.09,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 18.01,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 19.03,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.68,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 15.68,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 19.1,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.46,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 17.18,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 18.33,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.42,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 17.11,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 20.46,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.61,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 15.97,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 20.15,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.59,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 15.84,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 20.59,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.71,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 82.21,
+        "res": 100000,
+        "transform": "project",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 78.79,
+        "res": 100000,
+        "transform": "project",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 70.78,
+        "res": 100000,
+        "transform": "project",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 85.66,
+        "res": 100000,
+        "transform": "project",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 72.4,
+        "res": 100000,
+        "transform": "project",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 69.12,
+        "res": 100000,
+        "transform": "project",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 85.92,
+        "res": 100000,
+        "transform": "project",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 131.29,
+        "res": 100000,
+        "transform": "project",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 80.89,
+        "res": 100000,
+        "transform": "project",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 104.84,
+        "res": 100000,
+        "transform": "project",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 83.18,
+        "res": 100000,
+        "transform": "project",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 71.9,
+        "res": 100000,
+        "transform": "project",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 91.88,
+        "res": 100000,
+        "transform": "project",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 76.29,
+        "res": 100000,
+        "transform": "project",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 93.07,
+        "res": 100000,
+        "transform": "project",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 87.94,
+        "res": 100000,
+        "transform": "project",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 71.53,
+        "res": 100000,
+        "transform": "project",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 78.91,
+        "res": 100000,
+        "transform": "project",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 87.19,
+        "res": 100000,
+        "transform": "project",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 73.79,
+        "res": 100000,
+        "transform": "project",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 69.54,
+        "res": 100000,
+        "transform": "project",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 90.79,
+        "res": 100000,
+        "transform": "project",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 77.44,
+        "res": 100000,
+        "transform": "project",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 69.17,
+        "res": 100000,
+        "transform": "project",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 81.5,
+        "res": 100000,
+        "transform": "project",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 68.09,
+        "res": 100000,
+        "transform": "project",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 76.11,
+        "res": 100000,
+        "transform": "project",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 88.75,
+        "res": 100000,
+        "transform": "project",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 77.16,
+        "res": 100000,
+        "transform": "project",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 69.89,
+        "res": 100000,
+        "transform": "project",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 123.53,
+        "res": 100000,
+        "transform": "collect",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 456.42,
+        "res": 100000,
+        "transform": "collect",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 413.56,
+        "res": 100000,
+        "transform": "collect",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 130.8,
+        "res": 100000,
+        "transform": "collect",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 474.82,
+        "res": 100000,
+        "transform": "collect",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 416.93,
+        "res": 100000,
+        "transform": "collect",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 196.93,
+        "res": 100000,
+        "transform": "collect",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 877.8,
+        "res": 100000,
+        "transform": "collect",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 446.03,
+        "res": 100000,
+        "transform": "collect",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 81.6,
+        "res": 100000,
+        "transform": "collect",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 534.69,
+        "res": 100000,
+        "transform": "collect",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 432.74,
+        "res": 100000,
+        "transform": "collect",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 181.75,
+        "res": 100000,
+        "transform": "collect",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 496.66,
+        "res": 100000,
+        "transform": "collect",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 415.12,
+        "res": 100000,
+        "transform": "collect",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 175.04,
+        "res": 100000,
+        "transform": "collect",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 506.15,
+        "res": 100000,
+        "transform": "collect",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 432.38,
+        "res": 100000,
+        "transform": "collect",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 121.99,
+        "res": 100000,
+        "transform": "collect",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 519.3,
+        "res": 100000,
+        "transform": "collect",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 428.88,
+        "res": 100000,
+        "transform": "collect",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 165.41,
+        "res": 100000,
+        "transform": "collect",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 502.24,
+        "res": 100000,
+        "transform": "collect",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 413.89,
+        "res": 100000,
+        "transform": "collect",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 195.38,
+        "res": 100000,
+        "transform": "collect",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 485.74,
+        "res": 100000,
+        "transform": "collect",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 394.62,
+        "res": 100000,
+        "transform": "collect",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 262.28,
+        "res": 100000,
+        "transform": "collect",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 508.3,
+        "res": 100000,
+        "transform": "collect",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "duck",
+        "runtime": 386.92,
+        "res": 100000,
+        "transform": "collect",
+        "dataset": "car_100k"
+      },
+      {
+        "name": "vg",
+        "runtime": 64.02,
+        "res": 182,
+        "transform": "filter",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 22.67,
+        "res": 182,
+        "transform": "filter",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 25.89,
+        "res": 182,
+        "transform": "filter",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 62.02,
+        "res": 0,
+        "transform": "filter",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 9.02,
+        "res": 0,
+        "transform": "filter",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 0.51,
+        "res": 0,
+        "transform": "filter",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 24.81,
+        "res": 50000,
+        "transform": "filter",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 192.26,
+        "res": 50000,
+        "transform": "filter",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 151.91,
+        "res": 50000,
+        "transform": "filter",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 34.04,
+        "res": 50000,
+        "transform": "filter",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 183.34,
+        "res": 50000,
+        "transform": "filter",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 149.53,
+        "res": 50000,
+        "transform": "filter",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 33.85,
+        "res": 32490,
+        "transform": "filter",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 117.35,
+        "res": 32490,
+        "transform": "filter",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 108.68,
+        "res": 32490,
+        "transform": "filter",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 46.68,
+        "res": 21972,
+        "transform": "filter",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 84.18,
+        "res": 21972,
+        "transform": "filter",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 80.87,
+        "res": 21972,
+        "transform": "filter",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 49.65,
+        "res": 0,
+        "transform": "filter",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 10.73,
+        "res": 0,
+        "transform": "filter",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 0.39,
+        "res": 0,
+        "transform": "filter",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 51.6,
+        "res": 0,
+        "transform": "filter",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 7.9,
+        "res": 0,
+        "transform": "filter",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 0.37,
+        "res": 0,
+        "transform": "filter",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 44.21,
+        "res": 12227,
+        "transform": "filter",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 48.15,
+        "res": 12227,
+        "transform": "filter",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 43.23,
+        "res": 12227,
+        "transform": "filter",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 25.63,
+        "res": 50000,
+        "transform": "filter",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 193.35,
+        "res": 50000,
+        "transform": "filter",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 151.24,
+        "res": 50000,
+        "transform": "filter",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 14.92,
+        "res": 184,
+        "transform": "aggregate",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 15.85,
+        "res": 184,
+        "transform": "aggregate",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 15.34,
+        "res": 184,
+        "transform": "aggregate",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 27.37,
+        "res": 167,
+        "transform": "aggregate",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 17.37,
+        "res": 167,
+        "transform": "aggregate",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 5.82,
+        "res": 167,
+        "transform": "aggregate",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 11.79,
+        "res": 184,
+        "transform": "aggregate",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 16.2,
+        "res": 184,
+        "transform": "aggregate",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 14.41,
+        "res": 184,
+        "transform": "aggregate",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 10.17,
+        "res": 1,
+        "transform": "aggregate",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 9.62,
+        "res": 1,
+        "transform": "aggregate",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 2.09,
+        "res": 1,
+        "transform": "aggregate",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 14.91,
+        "res": 2551,
+        "transform": "aggregate",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 19.66,
+        "res": 2551,
+        "transform": "aggregate",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 204.21,
+        "res": 2551,
+        "transform": "aggregate",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 9.19,
+        "res": 1,
+        "transform": "aggregate",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 11.19,
+        "res": 1,
+        "transform": "aggregate",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.86,
+        "res": 1,
+        "transform": "aggregate",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 12.21,
+        "res": 382,
+        "transform": "aggregate",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 18.02,
+        "res": 382,
+        "transform": "aggregate",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 30.98,
+        "res": 382,
+        "transform": "aggregate",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 12.15,
+        "res": 6,
+        "transform": "aggregate",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 17.2,
+        "res": 6,
+        "transform": "aggregate",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 3.78,
+        "res": 6,
+        "transform": "aggregate",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 16.64,
+        "res": 2551,
+        "transform": "aggregate",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 22.38,
+        "res": 2551,
+        "transform": "aggregate",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 192.65,
+        "res": 2551,
+        "transform": "aggregate",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 18.38,
+        "res": 2551,
+        "transform": "aggregate",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 38.21,
+        "res": 2551,
+        "transform": "aggregate",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 3493.02,
+        "res": 2551,
+        "transform": "aggregate",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 12.7,
+        "res": 50000,
+        "transform": "bin",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 213.71,
+        "res": 50000,
+        "transform": "bin",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 162.43,
+        "res": 50000,
+        "transform": "bin",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 12.48,
+        "res": 50000,
+        "transform": "bin",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 230.69,
+        "res": 50000,
+        "transform": "bin",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 151.84,
+        "res": 50000,
+        "transform": "bin",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 8.41,
+        "res": 50000,
+        "transform": "bin",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 199.26,
+        "res": 50000,
+        "transform": "bin",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 153.73,
+        "res": 50000,
+        "transform": "bin",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 7.66,
+        "res": 50000,
+        "transform": "bin",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 121.09,
+        "res": 29329,
+        "transform": "bin",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 95.56,
+        "res": 29329,
+        "transform": "bin",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 7.94,
+        "res": 50000,
+        "transform": "bin",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 202.25,
+        "res": 50000,
+        "transform": "bin",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 153.06,
+        "res": 50000,
+        "transform": "bin",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 7.65,
+        "res": 50000,
+        "transform": "bin",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 195.44,
+        "res": 50000,
+        "transform": "bin",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 153.07,
+        "res": 50000,
+        "transform": "bin",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 8.08,
+        "res": 50000,
+        "transform": "bin",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 81.48,
+        "res": 20364,
+        "transform": "bin",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 70.44,
+        "res": 20364,
+        "transform": "bin",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 7.94,
+        "res": 50000,
+        "transform": "bin",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 198.41,
+        "res": 50000,
+        "transform": "bin",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 153.65,
+        "res": 50000,
+        "transform": "bin",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 7.89,
+        "res": 50000,
+        "transform": "bin",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 84.07,
+        "res": 20364,
+        "transform": "bin",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 70.64,
+        "res": 20364,
+        "transform": "bin",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 10.61,
+        "res": 50000,
+        "transform": "bin",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 100.12,
+        "res": 20364,
+        "transform": "bin",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 70.13,
+        "res": 20364,
+        "transform": "bin",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 80.7,
+        "res": 50000,
+        "transform": "stack",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 242.57,
+        "res": 50000,
+        "transform": "stack",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 466.21,
+        "res": 50000,
+        "transform": "stack",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 89.96,
+        "res": 50000,
+        "transform": "stack",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 245.96,
+        "res": 50000,
+        "transform": "stack",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 401.51,
+        "res": 50000,
+        "transform": "stack",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 83.27,
+        "res": 50000,
+        "transform": "stack",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 259.1,
+        "res": 50000,
+        "transform": "stack",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 366.45,
+        "res": 50000,
+        "transform": "stack",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 78.6,
+        "res": 50000,
+        "transform": "stack",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 251.77,
+        "res": 50000,
+        "transform": "stack",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 413.06,
+        "res": 50000,
+        "transform": "stack",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 89.83,
+        "res": 50000,
+        "transform": "stack",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 244.04,
+        "res": 50000,
+        "transform": "stack",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 396.41,
+        "res": 50000,
+        "transform": "stack",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 107.45,
+        "res": 50000,
+        "transform": "stack",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 254.38,
+        "res": 50000,
+        "transform": "stack",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 439.88,
+        "res": 50000,
+        "transform": "stack",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 76.2,
+        "res": 50000,
+        "transform": "stack",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 242.55,
+        "res": 50000,
+        "transform": "stack",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 361.26,
+        "res": 50000,
+        "transform": "stack",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 102.78,
+        "res": 50000,
+        "transform": "stack",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 252.57,
+        "res": 50000,
+        "transform": "stack",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 418.38,
+        "res": 50000,
+        "transform": "stack",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 144.73,
+        "res": 50000,
+        "transform": "stack",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 285.82,
+        "res": 50000,
+        "transform": "stack",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 554.88,
+        "res": 50000,
+        "transform": "stack",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 97.13,
+        "res": 50000,
+        "transform": "stack",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 322.37,
+        "res": 50000,
+        "transform": "stack",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 541.31,
+        "res": 50000,
+        "transform": "stack",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 22.57,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 12.23,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.25,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 18.63,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 12.66,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.66,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 10.23,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 11.93,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.33,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 11.82,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 12.01,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.19,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 10.06,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 10.47,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.21,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 10.48,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 18.04,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 2.37,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 9.6,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 12.42,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.71,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 9.28,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 10.6,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.21,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 9.88,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 10.89,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.38,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 9.55,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 10.65,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.2,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 45.43,
+        "res": 50000,
+        "transform": "project",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 40.51,
+        "res": 50000,
+        "transform": "project",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 45.23,
+        "res": 50000,
+        "transform": "project",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 39.39,
+        "res": 50000,
+        "transform": "project",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 37.95,
+        "res": 50000,
+        "transform": "project",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 49.38,
+        "res": 50000,
+        "transform": "project",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 43.55,
+        "res": 50000,
+        "transform": "project",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 45.71,
+        "res": 50000,
+        "transform": "project",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 36.51,
+        "res": 50000,
+        "transform": "project",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 52.96,
+        "res": 50000,
+        "transform": "project",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 38.88,
+        "res": 50000,
+        "transform": "project",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 34.05,
+        "res": 50000,
+        "transform": "project",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 45.95,
+        "res": 50000,
+        "transform": "project",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 36.08,
+        "res": 50000,
+        "transform": "project",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 39.51,
+        "res": 50000,
+        "transform": "project",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 43.08,
+        "res": 50000,
+        "transform": "project",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 38.24,
+        "res": 50000,
+        "transform": "project",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 40.76,
+        "res": 50000,
+        "transform": "project",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 42.72,
+        "res": 50000,
+        "transform": "project",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 41.38,
+        "res": 50000,
+        "transform": "project",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 40.81,
+        "res": 50000,
+        "transform": "project",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 41.83,
+        "res": 50000,
+        "transform": "project",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 45.2,
+        "res": 50000,
+        "transform": "project",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 35.49,
+        "res": 50000,
+        "transform": "project",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 42.51,
+        "res": 50000,
+        "transform": "project",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 44.15,
+        "res": 50000,
+        "transform": "project",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 37.79,
+        "res": 50000,
+        "transform": "project",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 39.74,
+        "res": 50000,
+        "transform": "project",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 38.76,
+        "res": 50000,
+        "transform": "project",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 51.37,
+        "res": 50000,
+        "transform": "project",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 110.04,
+        "res": 50000,
+        "transform": "collect",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 231.08,
+        "res": 50000,
+        "transform": "collect",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 195.63,
+        "res": 50000,
+        "transform": "collect",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 50.92,
+        "res": 50000,
+        "transform": "collect",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 259.65,
+        "res": 50000,
+        "transform": "collect",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 193.3,
+        "res": 50000,
+        "transform": "collect",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 79.26,
+        "res": 50000,
+        "transform": "collect",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 227.61,
+        "res": 50000,
+        "transform": "collect",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 182.11,
+        "res": 50000,
+        "transform": "collect",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 83.59,
+        "res": 50000,
+        "transform": "collect",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 227.37,
+        "res": 50000,
+        "transform": "collect",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 193.72,
+        "res": 50000,
+        "transform": "collect",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 66.26,
+        "res": 50000,
+        "transform": "collect",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 249.35,
+        "res": 50000,
+        "transform": "collect",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 204.45,
+        "res": 50000,
+        "transform": "collect",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 76.24,
+        "res": 50000,
+        "transform": "collect",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 247.99,
+        "res": 50000,
+        "transform": "collect",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 208.23,
+        "res": 50000,
+        "transform": "collect",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 115.86,
+        "res": 50000,
+        "transform": "collect",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 262.46,
+        "res": 50000,
+        "transform": "collect",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 243.68,
+        "res": 50000,
+        "transform": "collect",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 132.53,
+        "res": 50000,
+        "transform": "collect",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 287.63,
+        "res": 50000,
+        "transform": "collect",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 224.32,
+        "res": 50000,
+        "transform": "collect",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 59.95,
+        "res": 50000,
+        "transform": "collect",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 289.95,
+        "res": 50000,
+        "transform": "collect",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 221.3,
+        "res": 50000,
+        "transform": "collect",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 58.02,
+        "res": 50000,
+        "transform": "collect",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "postgres",
+        "runtime": 301.3,
+        "res": 50000,
+        "transform": "collect",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "duck",
+        "runtime": 243.37,
+        "res": 50000,
+        "transform": "collect",
+        "dataset": "car_50k"
+      },
+      {
+        "name": "vg",
+        "runtime": 1.41,
+        "res": 152,
+        "transform": "filter",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 3.49,
+        "res": 157,
+        "transform": "filter",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 11.28,
+        "res": 152,
+        "transform": "filter",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 1.71,
+        "res": 15,
+        "transform": "filter",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 2.46,
+        "res": 15,
+        "transform": "filter",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 6.14,
+        "res": 15,
+        "transform": "filter",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.75,
+        "res": 272,
+        "transform": "filter",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 4.37,
+        "res": 284,
+        "transform": "filter",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 7.08,
+        "res": 272,
+        "transform": "filter",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.89,
+        "res": 0,
+        "transform": "filter",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 1.79,
+        "res": 0,
+        "transform": "filter",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 0.45,
+        "res": 0,
+        "transform": "filter",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.74,
+        "res": 324,
+        "transform": "filter",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 4.45,
+        "res": 333,
+        "transform": "filter",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 7.4,
+        "res": 324,
+        "transform": "filter",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.97,
+        "res": 0,
+        "transform": "filter",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 1.96,
+        "res": 0,
+        "transform": "filter",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 0.45,
+        "res": 0,
+        "transform": "filter",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.91,
+        "res": 0,
+        "transform": "filter",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 2.56,
+        "res": 0,
+        "transform": "filter",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 5.73,
+        "res": 0,
+        "transform": "filter",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.89,
+        "res": 0,
+        "transform": "filter",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 2.73,
+        "res": 0,
+        "transform": "filter",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 6.34,
+        "res": 0,
+        "transform": "filter",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.89,
+        "res": 0,
+        "transform": "filter",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 3.68,
+        "res": 0,
+        "transform": "filter",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 5.92,
+        "res": 0,
+        "transform": "filter",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.68,
+        "res": 392,
+        "transform": "filter",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 3.61,
+        "res": 406,
+        "transform": "filter",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 6.89,
+        "res": 392,
+        "transform": "filter",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 1.5,
+        "res": 127,
+        "transform": "aggregate",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 2.63,
+        "res": 130,
+        "transform": "aggregate",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 2.32,
+        "res": 127,
+        "transform": "aggregate",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 1.8,
+        "res": 127,
+        "transform": "aggregate",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 2.83,
+        "res": 130,
+        "transform": "aggregate",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.9,
+        "res": 127,
+        "transform": "aggregate",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 1.49,
+        "res": 346,
+        "transform": "aggregate",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 3.37,
+        "res": 356,
+        "transform": "aggregate",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 3.58,
+        "res": 346,
+        "transform": "aggregate",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.5,
+        "res": 3,
+        "transform": "aggregate",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 2.46,
+        "res": 3,
+        "transform": "aggregate",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 2.22,
+        "res": 3,
+        "transform": "aggregate",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.42,
+        "res": 81,
+        "transform": "aggregate",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 3.49,
+        "res": 83,
+        "transform": "aggregate",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 3.2,
+        "res": 81,
+        "transform": "aggregate",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 1.01,
+        "res": 346,
+        "transform": "aggregate",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 2.97,
+        "res": 356,
+        "transform": "aggregate",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 2.88,
+        "res": 346,
+        "transform": "aggregate",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.4,
+        "res": 81,
+        "transform": "aggregate",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 2.39,
+        "res": 83,
+        "transform": "aggregate",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 2.25,
+        "res": 81,
+        "transform": "aggregate",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 1.08,
+        "res": 95,
+        "transform": "aggregate",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 3.47,
+        "res": 96,
+        "transform": "aggregate",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 2.32,
+        "res": 95,
+        "transform": "aggregate",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.41,
+        "res": 81,
+        "transform": "aggregate",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 2.52,
+        "res": 83,
+        "transform": "aggregate",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 2.23,
+        "res": 81,
+        "transform": "aggregate",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 1.25,
+        "res": 95,
+        "transform": "aggregate",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 6.31,
+        "res": 96,
+        "transform": "aggregate",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 3.75,
+        "res": 95,
+        "transform": "aggregate",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 1.01,
+        "res": 392,
+        "transform": "bin",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 6.9,
+        "res": 406,
+        "transform": "bin",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 11.45,
+        "res": 392,
+        "transform": "bin",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.34,
+        "res": 392,
+        "transform": "bin",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 6.22,
+        "res": 406,
+        "transform": "bin",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 13.08,
+        "res": 392,
+        "transform": "bin",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.34,
+        "res": 392,
+        "transform": "bin",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 7.37,
+        "res": 406,
+        "transform": "bin",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 11.84,
+        "res": 392,
+        "transform": "bin",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.33,
+        "res": 392,
+        "transform": "bin",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 7.46,
+        "res": 406,
+        "transform": "bin",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 11.64,
+        "res": 392,
+        "transform": "bin",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.34,
+        "res": 392,
+        "transform": "bin",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 7.13,
+        "res": 406,
+        "transform": "bin",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 12.16,
+        "res": 392,
+        "transform": "bin",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.37,
+        "res": 392,
+        "transform": "bin",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 7.86,
+        "res": 406,
+        "transform": "bin",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 11.83,
+        "res": 392,
+        "transform": "bin",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.49,
+        "res": 392,
+        "transform": "bin",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 7.67,
+        "res": 406,
+        "transform": "bin",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 18.92,
+        "res": 392,
+        "transform": "bin",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.58,
+        "res": 392,
+        "transform": "bin",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 6.48,
+        "res": 406,
+        "transform": "bin",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 12.86,
+        "res": 392,
+        "transform": "bin",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.84,
+        "res": 392,
+        "transform": "bin",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 6.14,
+        "res": 406,
+        "transform": "bin",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 9.73,
+        "res": 392,
+        "transform": "bin",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.25,
+        "res": 392,
+        "transform": "bin",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 5.95,
+        "res": 406,
+        "transform": "bin",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 10.97,
+        "res": 392,
+        "transform": "bin",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 1.03,
+        "res": 392,
+        "transform": "stack",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 5.87,
+        "res": 406,
+        "transform": "stack",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 12.35,
+        "res": 392,
+        "transform": "stack",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 1.55,
+        "res": 392,
+        "transform": "stack",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 6.67,
+        "res": 406,
+        "transform": "stack",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 13,
+        "res": 392,
+        "transform": "stack",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 1.37,
+        "res": 392,
+        "transform": "stack",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 6.29,
+        "res": 406,
+        "transform": "stack",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 11.55,
+        "res": 392,
+        "transform": "stack",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.86,
+        "res": 392,
+        "transform": "stack",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 6.72,
+        "res": 406,
+        "transform": "stack",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 11.7,
+        "res": 392,
+        "transform": "stack",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.75,
+        "res": 392,
+        "transform": "stack",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 5.93,
+        "res": 406,
+        "transform": "stack",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 11.26,
+        "res": 392,
+        "transform": "stack",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.76,
+        "res": 392,
+        "transform": "stack",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 8.23,
+        "res": 406,
+        "transform": "stack",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 12.22,
+        "res": 392,
+        "transform": "stack",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 1.35,
+        "res": 392,
+        "transform": "stack",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 6.08,
+        "res": 406,
+        "transform": "stack",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 10.7,
+        "res": 392,
+        "transform": "stack",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.76,
+        "res": 392,
+        "transform": "stack",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 6.29,
+        "res": 406,
+        "transform": "stack",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 12.11,
+        "res": 392,
+        "transform": "stack",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.7,
+        "res": 392,
+        "transform": "stack",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 6.16,
+        "res": 406,
+        "transform": "stack",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 10.92,
+        "res": 392,
+        "transform": "stack",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.72,
+        "res": 392,
+        "transform": "stack",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 6.61,
+        "res": 406,
+        "transform": "stack",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 11.68,
+        "res": 392,
+        "transform": "stack",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.32,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 2.18,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.24,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.27,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 6.07,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 4.72,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.25,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 3.59,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.74,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.89,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 3.41,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 2.1,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.24,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 3.86,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.67,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.2,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 2.95,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.16,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.21,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 2.08,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.97,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.21,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 2.34,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.28,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.21,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 2.14,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.75,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.23,
+        "res": 2,
+        "transform": "extent",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 2.08,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.16,
+        "res": 1,
+        "transform": "extent",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.68,
+        "res": 392,
+        "transform": "project",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 2.93,
+        "res": 406,
+        "transform": "project",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.16,
+        "res": 392,
+        "transform": "project",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.59,
+        "res": 392,
+        "transform": "project",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 2.17,
+        "res": 406,
+        "transform": "project",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.11,
+        "res": 392,
+        "transform": "project",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.61,
+        "res": 392,
+        "transform": "project",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 2.2,
+        "res": 406,
+        "transform": "project",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.02,
+        "res": 392,
+        "transform": "project",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.59,
+        "res": 392,
+        "transform": "project",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 2.3,
+        "res": 406,
+        "transform": "project",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.22,
+        "res": 392,
+        "transform": "project",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.64,
+        "res": 392,
+        "transform": "project",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 1.93,
+        "res": 406,
+        "transform": "project",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.01,
+        "res": 392,
+        "transform": "project",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.6,
+        "res": 392,
+        "transform": "project",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 2.16,
+        "res": 406,
+        "transform": "project",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.12,
+        "res": 392,
+        "transform": "project",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.81,
+        "res": 392,
+        "transform": "project",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 2.29,
+        "res": 406,
+        "transform": "project",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.09,
+        "res": 392,
+        "transform": "project",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.61,
+        "res": 392,
+        "transform": "project",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 1.97,
+        "res": 406,
+        "transform": "project",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.25,
+        "res": 392,
+        "transform": "project",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 1.05,
+        "res": 392,
+        "transform": "project",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 2.02,
+        "res": 406,
+        "transform": "project",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.24,
+        "res": 392,
+        "transform": "project",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.61,
+        "res": 392,
+        "transform": "project",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 2.88,
+        "res": 406,
+        "transform": "project",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 1.31,
+        "res": 392,
+        "transform": "project",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.62,
+        "res": 392,
+        "transform": "collect",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 4.78,
+        "res": 406,
+        "transform": "collect",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 7.78,
+        "res": 392,
+        "transform": "collect",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.27,
+        "res": 392,
+        "transform": "collect",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 5.14,
+        "res": 406,
+        "transform": "collect",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 8.24,
+        "res": 392,
+        "transform": "collect",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.67,
+        "res": 392,
+        "transform": "collect",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 4.77,
+        "res": 406,
+        "transform": "collect",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 8.48,
+        "res": 392,
+        "transform": "collect",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.45,
+        "res": 392,
+        "transform": "collect",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 5.6,
+        "res": 406,
+        "transform": "collect",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 8.15,
+        "res": 392,
+        "transform": "collect",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.56,
+        "res": 392,
+        "transform": "collect",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 4.89,
+        "res": 406,
+        "transform": "collect",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 8.29,
+        "res": 392,
+        "transform": "collect",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.68,
+        "res": 392,
+        "transform": "collect",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 5.26,
+        "res": 406,
+        "transform": "collect",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 8.25,
+        "res": 392,
+        "transform": "collect",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.59,
+        "res": 392,
+        "transform": "collect",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 5.79,
+        "res": 406,
+        "transform": "collect",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 9.14,
+        "res": 392,
+        "transform": "collect",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.5,
+        "res": 392,
+        "transform": "collect",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 5.01,
+        "res": 406,
+        "transform": "collect",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 10.32,
+        "res": 392,
+        "transform": "collect",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.28,
+        "res": 392,
+        "transform": "collect",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 5.21,
+        "res": 406,
+        "transform": "collect",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 9.87,
+        "res": 392,
+        "transform": "collect",
+        "dataset": "cars"
+      },
+      {
+        "name": "vg",
+        "runtime": 0.44,
+        "res": 392,
+        "transform": "collect",
+        "dataset": "cars"
+      },
+      {
+        "name": "postgres",
+        "runtime": 5.39,
+        "res": 406,
+        "transform": "collect",
+        "dataset": "cars"
+      },
+      {
+        "name": "duck",
+        "runtime": 10.22,
+        "res": 392,
+        "transform": "collect",
+        "dataset": "cars"
+      }
+    ]
+  },
+  "transform": [
+    {
+      "calculate": "datum.name == 'vg' ? 'Vega' : datum.name == 'duck'?'duckdb':'Postgres'",
+      "as": "application"
+    }
+  ],
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "application",
+      "axis": {
+        "title": ""
+      }
+    },
+    "y": {
+      "aggregate": "average",
+      "field": "runtime",
+      "title": "Runtime(ms)",
+      "axis": {
+        "grid": false
+      },
+      "scale": {
+        "type": "log"
+      }
+    },
+    "column": {
+      "field": "transform",
+      "type": "nominal",
+      "spacing": 10,
+      "title": "Transform"
+    },
+    "row": {
+      "field": "dataset",
+      "title": "Dataset Size"
+    },
+    "color": {
+      "field": "application"
+    }
+  },
+  "config": {
+    "view": {
+      "stroke": "transparent"
+    },
+    "axis": {
+      "domainWidth": 1
+    }
+  }
+}
