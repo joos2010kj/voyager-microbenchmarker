@@ -3,3 +3,5 @@ yarn.lock
 package-lock.json
 stat_generator.js
 junran-voyager-microbenchmarker/
+result_*.json
+result_*.csv

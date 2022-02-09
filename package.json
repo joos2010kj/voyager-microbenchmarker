@@ -8,6 +8,7 @@
     "@mapd/connector": "^5.5.2",
     "apache-arrow": "^4.0.0",
     "gh-pages": "^3.1.0",
+    "node-fetch": "^3.2.0",
     "performance": "^1.4.0",
     "seedrandom": "^3.0.5",
     "vega": "^5.20.2",
@@ -25,5 +26,7 @@
     "parcel": "^2.0.0-beta.2",
     "parcel-bundler": "^1.12.3",
     "typescript": "^3.9.5"
-  }
+  },
+  "repository": "git@github.com:joos2010kj/voyager-microbenchmarker.git",
+  "author": "Hyekang Joo <joos2010kj@github.com>"
 }

@@ -9,7 +9,7 @@ class ExampleGenerator {
         const STRINGIFY = stringify;
         const Template = (cls, expr, sql) => {
             return {
-                transform: cls,
+                type: cls,
                 expr: expr,
                 sql: sql
             }
@@ -82,11 +82,13 @@ class ExampleGenerator {
     }
 }
 
-const path = "quant_and_qual_stat.json";
-const stringify = true;
+// const path = "quant_and_qual_stat.json";
+// const stringify = true;
 
-const Generator = ExampleGenerator.init(path, stringify);
+// const Generator = ExampleGenerator.init(path, stringify);
 
-const result = _.sample([Generator.Extent.generate(2), Generator.Collect.generate(2), Generator.Project.generate(2)]);
+// const result = _.sample([Generator.Extent.generate(2), Generator.Collect.generate(2), Generator.Project.generate(2)]);
 
-console.log(result)
+// console.log(result)
+
+module.exports = { ExampleGenerator };
