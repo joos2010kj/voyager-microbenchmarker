@@ -55,8 +55,9 @@ function generateSpec(datasetSize, sampleCount) {
 
 
 async function computeSpeed(spec, sampleCount) {
+    let parsed = await vega.parse(spec);
     let t = Date.now();
-    let view = await new vega.View(vega.parse(spec)).runAsync();
+    let view = await new vega.View(parsed).runAsync();
     let time = Date.now() - t;
     let len = view.data('sandbox').length
     return { sampleCount, len, time }
