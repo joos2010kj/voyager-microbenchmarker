@@ -99,123 +99,12 @@ class Transform {
     }
 
     static Aggregate = class {    
-        static count(item) {
+        static operate(item, ops, as) {
             return {
                 "type": "aggregate",
-                "fields": [item],
-                "ops": ["count"]
-            }
-        }
-    
-        static valid(item) {
-            return {
-                "type": "aggregate",
-                "fields": [item],
-                "ops": ["valid"]
-            }
-        }
-
-        static missing(item) {
-            return {
-                "type": "aggregate",
-                "fields": [item],
-                "ops": ["missing"]
-            }
-        }
-
-        static distinct(item) {
-            return {
-                "type": "aggregate",
-                "fields": [item],
-                "ops": ["distinct"]
-            }
-        }
-    
-        static sum(item) {
-            return {
-                "type": "aggregate",
-                "fields": [item],
-                "ops": ["sum"]
-            }
-        }
-    
-        static product(item) {
-            return {
-                "type": "aggregate",
-                "fields": [item],
-                "ops": ["product"]
-            }
-        }
-
-        static mean(item) {
-            return {
-                "type": "aggregate",
-                "fields": [item],
-                "ops": ["mean"]
-            }
-        }
-
-        static average(item) {
-            return {
-                "type": "aggregate",
-                "fields": [item],
-                "ops": ["average"]
-            }
-        }
-    
-        static variance(item) {
-            return  {
-                "type": "aggregate",
-                "fields": [item],
-                "ops": ["variance"]
-            }
-        }
-    
-        static variancep(item) {
-            return  {
-                "type": "aggregate",
-                "fields": [item],
-                "ops": ["variancep"]
-            }
-        }
-
-        static stdev(item) {
-            return {
-                "type": "aggregate",
-                "fields": [item],
-                "ops": ["stdev"]
-            }
-        }
-    
-        static stdevp(item) {
-            return {
-                "type": "aggregate",
-                "fields": [item],
-                "ops": ["stdevp"]
-            }
-        }
-    
-        static median(item) {
-            return {
-                "type": "aggregate",
-                "fields": [item],
-                "ops": ["median"]
-            }
-        }
-    
-        static min(item) {
-            return {
-                "type": "aggregate",
-                "fields": [item],
-                "ops": ["min"]
-            }
-        }
-    
-        static max(item) {
-            return {
-                "type": "aggregate",
-                "fields": [item],
-                "ops": ["max"]
+                "fields": [...item],
+                "ops": [...ops],
+                "as": [...as]
             }
         }
     
@@ -272,15 +161,15 @@ class Transform {
         static fields(item) {
             return {
                 "type": "project",
-                "fields": [item]
+                "fields": [...item]
             }
         }
 
         static as(item, renamed) {
             return {
                 "type": "project",
-                "fields": [item],
-                "as": [renamed]
+                "fields": [...item],
+                "as": [...renamed]
             }
         }
 
@@ -313,14 +202,16 @@ class Transform {
         // ascending order is used by default per documentation
         static sort(item, order) {
             if (order != undefined) {
-                assert.ok(['ascending', 'descending'].indexOf(order) > -1);
+                order.forEach(f => {
+                    assert.ok(['ascending', 'descending'].indexOf(f) > -1);
+                })
             }
 
             return {
                 "type": "collect",
                 "sort": {
-                    "field": [item],
-                    "order": [order == undefined ? 'ascending' : order]
+                    "field": [...item],
+                    "order": order == undefined ? ['ascending'] : order
                 }
             }
         }

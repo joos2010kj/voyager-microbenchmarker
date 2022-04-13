@@ -76,8 +76,9 @@ class Normalizer():
                 }, f, indent=4)
 
 
-csv_path = "crossfilter-benchmark/data/cars/cars.csv"
-metadata_path = "crossfilter-benchmark/data/cars/sample.json"
+
+csv_path = "../crossfilter-benchmark/data/cars/cars.csv"
+metadata_path = "../crossfilter-benchmark/data/cars/sample.json"
 save_path = "quant_and_qual_stat.json"
 
 norm = Normalizer(csv_path, metadata_path)
