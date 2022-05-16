@@ -3,6 +3,18 @@ const _ = require('lodash');
 const fs = require('fs');
 
 class ExampleGenerator {
+    static normal = () => {
+        // https://stackoverflow.com/questions/25582882/javascript-math-random-normal-distribution-gaussian-bell-curve
+        // Normal Distribution using Box-Muller transform
+        let u = 0, v = 0;
+        while(u === 0) u = Math.random(); //Converting [0,1) to (0,1)
+        while(v === 0) v = Math.random();
+        let num = Math.sqrt( -2.0 * Math.log( u ) ) * Math.cos( 2.0 * Math.PI * v );
+        num = num / 10.0 + 0.5; // Translate to 0 -> 1
+        if (num > 1 || num < 0) return randn_bm() // resample between 0 and 1
+        return num
+    }
+
     static init = (path, stringify) => {
         const STATISTICS = path;
         const STATS = JSON.parse(fs.readFileSync(STATISTICS, 'utf-8'));
@@ -98,9 +110,14 @@ class ExampleGenerator {
         
                     return Array.from(Array(count).keys()).map(index => {
                         const sampleSize = Math.ceil(Math.random() * (QUANT_COUNT + CAT_COUNT)) // can be infinite, but restricted to this
-                        const field = _.sampleSize(Object.keys(STATS['quantitative']), sampleSize) // only numbers, and repetition allowed
+                        const field = []
                         const ops = []
                         const as = [];
+
+                        for (let i = 0; i < sampleSize; i++) {
+                            let samp = _.sample(Object.keys(STATS['quantitative'])) // only numbers, and repetition allowed
+                            field.push(samp)
+                        }
                         
                         for (let i = 0; i < sampleSize; i++) {
                             as.push(`name_${i + 1}`)
@@ -150,7 +167,7 @@ class ExampleGenerator {
             static Filter = class {
                 static generate(count) {        
                     return Array.from(Array(count).keys()).map(index => {
-                        const sampleSize = Math.ceil(Math.random() * QUANT_COUNT) // only quant for now
+                        const sampleSize = Math.ceil(Math.random() * 1) // only quant for now
                         const field = _.sampleSize(Object.keys({...STATS['quantitative']}), sampleSize) // repetition disallowed
                         const ops = []
                         
@@ -169,9 +186,8 @@ class ExampleGenerator {
 
                         for (let i = 0; i < sampleSize; i++) {
                             let attribute = field[i];
-                            console.log(attribute)
-                            let lower = STATS["quantitative"][attribute][0] - STATS["quantitative"][attribute][1] * Math.random() * 2.5;
-                            let upper = STATS["quantitative"][attribute][0] + STATS["quantitative"][attribute][1] * Math.random() * 2.5;
+                            let lower = STATS["quantitative"][attribute][0] - STATS["quantitative"][attribute][1] * ExampleGenerator.normal() * 2.5;
+                            let upper = STATS["quantitative"][attribute][0] + STATS["quantitative"][attribute][1] * ExampleGenerator.normal() * 2.5;
                             let command = undefined;
 
                             if (ops[i] == "between") {
@@ -205,7 +221,7 @@ class ExampleGenerator {
                                     attribute
                                 )
                             } else if (ops[i] == "is_not_null") {
-                                command = Transform.Filter.is_null(
+                                command = Transform.Filter.is_not_null(
                                     attribute
                                 )
                             }
@@ -221,9 +237,9 @@ class ExampleGenerator {
                         if (useTemplate) {
                             const child = Template('aggregate', expr, null);            
             
-                            return [STRINGIFY ? JSON.stringify(child) : child, sampleSize];
+                            return [STRINGIFY ? JSON.stringify(child) : child, [sampleSize, ops]];
                         } else {
-                            return [STRINGIFY ? JSON.stringify(expr) : expr, sampleSize];
+                            return [STRINGIFY ? JSON.stringify(expr) : expr, [sampleSize, ops]];
                         }
                     })
                 }

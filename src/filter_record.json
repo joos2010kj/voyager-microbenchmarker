@@ -1,0 +1,2012 @@
+[
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_equal"
+    ],
+    "len": 2000000,
+    "time": 5481,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "between"
+    ],
+    "len": 500000,
+    "time": 1394,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_not_null"
+    ],
+    "len": 2000000,
+    "time": 5489,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "between"
+    ],
+    "len": 500000,
+    "time": 1291,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_equal"
+    ],
+    "len": 500000,
+    "time": 1118,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_between"
+    ],
+    "len": 2000000,
+    "time": 4825,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_between"
+    ],
+    "len": 500000,
+    "time": 1147,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_between"
+    ],
+    "len": 1000000,
+    "time": 2340,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "equal"
+    ],
+    "len": 500000,
+    "time": 1103,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_null"
+    ],
+    "len": 2000000,
+    "time": 4952,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "between"
+    ],
+    "len": 2000000,
+    "time": 5790,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_equal"
+    ],
+    "len": 1000000,
+    "time": 2455,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "between"
+    ],
+    "len": 2000000,
+    "time": 6339,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_equal"
+    ],
+    "len": 2000000,
+    "time": 5637,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "between"
+    ],
+    "len": 1000000,
+    "time": 2466,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "between"
+    ],
+    "len": 2000000,
+    "time": 4951,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_between"
+    ],
+    "len": 2000000,
+    "time": 6384,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_null"
+    ],
+    "len": 2000000,
+    "time": 7543,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_null"
+    ],
+    "len": 2000000,
+    "time": 6844,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "equal"
+    ],
+    "len": 2000000,
+    "time": 6082,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_equal"
+    ],
+    "len": 500000,
+    "time": 1300,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_between"
+    ],
+    "len": 500000,
+    "time": 1443,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "equal"
+    ],
+    "len": 1000000,
+    "time": 2566,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_equal"
+    ],
+    "len": 1000000,
+    "time": 2805,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_equal"
+    ],
+    "len": 2000000,
+    "time": 5586,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_null"
+    ],
+    "len": 2000000,
+    "time": 5702,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "equal"
+    ],
+    "len": 500000,
+    "time": 1304,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "between"
+    ],
+    "len": 500000,
+    "time": 1318,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_equal"
+    ],
+    "len": 2000000,
+    "time": 6799,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_equal"
+    ],
+    "len": 500000,
+    "time": 1457,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_not_null"
+    ],
+    "len": 2000000,
+    "time": 5422,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_between"
+    ],
+    "len": 1000000,
+    "time": 3023,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_between"
+    ],
+    "len": 500000,
+    "time": 1585,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_null"
+    ],
+    "len": 500000,
+    "time": 1403,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_null"
+    ],
+    "len": 500000,
+    "time": 1377,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_not_null"
+    ],
+    "len": 1000000,
+    "time": 2589,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_equal"
+    ],
+    "len": 500000,
+    "time": 1264,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "equal"
+    ],
+    "len": 500000,
+    "time": 1212,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_null"
+    ],
+    "len": 500000,
+    "time": 1364,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_between"
+    ],
+    "len": 1000000,
+    "time": 2844,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_null"
+    ],
+    "len": 1000000,
+    "time": 2794,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_null"
+    ],
+    "len": 1000000,
+    "time": 2496,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "equal"
+    ],
+    "len": 500000,
+    "time": 1308,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "between"
+    ],
+    "len": 1000000,
+    "time": 3135,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "between"
+    ],
+    "len": 500000,
+    "time": 1365,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "between"
+    ],
+    "len": 2000000,
+    "time": 5328,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_not_null"
+    ],
+    "len": 500000,
+    "time": 1159,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_between"
+    ],
+    "len": 500000,
+    "time": 1292,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_between"
+    ],
+    "len": 1000000,
+    "time": 2540,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "between"
+    ],
+    "len": 500000,
+    "time": 1359,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "equal"
+    ],
+    "len": 2000000,
+    "time": 5640,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_null"
+    ],
+    "len": 500000,
+    "time": 1457,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_between"
+    ],
+    "len": 1000000,
+    "time": 2340,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_between"
+    ],
+    "len": 2000000,
+    "time": 5488,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_not_null"
+    ],
+    "len": 2000000,
+    "time": 5893,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_null"
+    ],
+    "len": 500000,
+    "time": 1354,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_null"
+    ],
+    "len": 500000,
+    "time": 1212,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "equal"
+    ],
+    "len": 1000000,
+    "time": 2555,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_equal"
+    ],
+    "len": 1000000,
+    "time": 2778,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_null"
+    ],
+    "len": 2000000,
+    "time": 5691,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_between"
+    ],
+    "len": 500000,
+    "time": 1345,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_between"
+    ],
+    "len": 500000,
+    "time": 1360,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "between"
+    ],
+    "len": 500000,
+    "time": 1421,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_null"
+    ],
+    "len": 2000000,
+    "time": 5835,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "between"
+    ],
+    "len": 1000000,
+    "time": 2791,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_equal"
+    ],
+    "len": 2000000,
+    "time": 6837,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_null"
+    ],
+    "len": 2000000,
+    "time": 6068,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_equal"
+    ],
+    "len": 1000000,
+    "time": 3049,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "equal"
+    ],
+    "len": 500000,
+    "time": 1084,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_null"
+    ],
+    "len": 1000000,
+    "time": 2378,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "equal"
+    ],
+    "len": 500000,
+    "time": 1271,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_between"
+    ],
+    "len": 2000000,
+    "time": 5392,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_null"
+    ],
+    "len": 500000,
+    "time": 1244,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "equal"
+    ],
+    "len": 2000000,
+    "time": 5692,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_between"
+    ],
+    "len": 500000,
+    "time": 1441,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_between"
+    ],
+    "len": 500000,
+    "time": 1178,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_not_null"
+    ],
+    "len": 1000000,
+    "time": 2711,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_equal"
+    ],
+    "len": 2000000,
+    "time": 6112,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_not_null"
+    ],
+    "len": 1000000,
+    "time": 2802,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_equal"
+    ],
+    "len": 2000000,
+    "time": 5838,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_not_null"
+    ],
+    "len": 500000,
+    "time": 1398,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_between"
+    ],
+    "len": 1000000,
+    "time": 2979,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_null"
+    ],
+    "len": 1000000,
+    "time": 2739,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_not_null"
+    ],
+    "len": 1000000,
+    "time": 2917,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_not_null"
+    ],
+    "len": 1000000,
+    "time": 2674,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "between"
+    ],
+    "len": 1000000,
+    "time": 2490,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_equal"
+    ],
+    "len": 2000000,
+    "time": 5205,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_between"
+    ],
+    "len": 500000,
+    "time": 1202,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_null"
+    ],
+    "len": 500000,
+    "time": 1100,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_equal"
+    ],
+    "len": 1000000,
+    "time": 2500,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_not_null"
+    ],
+    "len": 500000,
+    "time": 1219,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_not_null"
+    ],
+    "len": 2000000,
+    "time": 6067,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_equal"
+    ],
+    "len": 2000000,
+    "time": 5814,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_equal"
+    ],
+    "len": 1000000,
+    "time": 3180,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "equal"
+    ],
+    "len": 1000000,
+    "time": 2765,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_null"
+    ],
+    "len": 1000000,
+    "time": 2806,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_between"
+    ],
+    "len": 1000000,
+    "time": 3180,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_not_null"
+    ],
+    "len": 500000,
+    "time": 1126,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "equal"
+    ],
+    "len": 1000000,
+    "time": 2599,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "equal"
+    ],
+    "len": 2000000,
+    "time": 5741,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "equal"
+    ],
+    "len": 2000000,
+    "time": 5838,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "between"
+    ],
+    "len": 500000,
+    "time": 1380,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_equal"
+    ],
+    "len": 2000000,
+    "time": 5986,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_between"
+    ],
+    "len": 2000000,
+    "time": 6195,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "equal"
+    ],
+    "len": 1000000,
+    "time": 2383,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "between"
+    ],
+    "len": 500000,
+    "time": 1178,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_equal"
+    ],
+    "len": 2000000,
+    "time": 5575,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "between"
+    ],
+    "len": 1000000,
+    "time": 3055,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_equal"
+    ],
+    "len": 1000000,
+    "time": 2784,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_between"
+    ],
+    "len": 2000000,
+    "time": 5835,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_null"
+    ],
+    "len": 1000000,
+    "time": 2910,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "equal"
+    ],
+    "len": 1000000,
+    "time": 2904,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "equal"
+    ],
+    "len": 2000000,
+    "time": 4845,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_equal"
+    ],
+    "len": 500000,
+    "time": 1130,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_equal"
+    ],
+    "len": 1000000,
+    "time": 2679,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_equal"
+    ],
+    "len": 500000,
+    "time": 1296,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_between"
+    ],
+    "len": 500000,
+    "time": 1260,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_equal"
+    ],
+    "len": 500000,
+    "time": 1117,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "between"
+    ],
+    "len": 1000000,
+    "time": 2541,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "between"
+    ],
+    "len": 1000000,
+    "time": 2864,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "equal"
+    ],
+    "len": 2000000,
+    "time": 5801,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "equal"
+    ],
+    "len": 2000000,
+    "time": 5417,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_equal"
+    ],
+    "len": 1000000,
+    "time": 2340,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "equal"
+    ],
+    "len": 1000000,
+    "time": 2308,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "equal"
+    ],
+    "len": 500000,
+    "time": 1080,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "equal"
+    ],
+    "len": 1000000,
+    "time": 2268,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_equal"
+    ],
+    "len": 1000000,
+    "time": 2390,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_null"
+    ],
+    "len": 500000,
+    "time": 1459,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_null"
+    ],
+    "len": 1000000,
+    "time": 2490,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_null"
+    ],
+    "len": 2000000,
+    "time": 4931,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "between"
+    ],
+    "len": 1000000,
+    "time": 2467,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "equal"
+    ],
+    "len": 500000,
+    "time": 1283,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_null"
+    ],
+    "len": 500000,
+    "time": 1303,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "between"
+    ],
+    "len": 2000000,
+    "time": 4744,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_between"
+    ],
+    "len": 500000,
+    "time": 1103,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_null"
+    ],
+    "len": 500000,
+    "time": 1068,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_equal"
+    ],
+    "len": 2000000,
+    "time": 4764,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_not_null"
+    ],
+    "len": 1000000,
+    "time": 2348,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_equal"
+    ],
+    "len": 2000000,
+    "time": 4808,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_not_null"
+    ],
+    "len": 500000,
+    "time": 1284,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_between"
+    ],
+    "len": 1000000,
+    "time": 2273,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_between"
+    ],
+    "len": 500000,
+    "time": 1158,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "between"
+    ],
+    "len": 1000000,
+    "time": 2340,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "between"
+    ],
+    "len": 500000,
+    "time": 1134,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_equal"
+    ],
+    "len": 1000000,
+    "time": 2668,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_null"
+    ],
+    "len": 2000000,
+    "time": 6350,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "between"
+    ],
+    "len": 1000000,
+    "time": 2852,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_not_null"
+    ],
+    "len": 500000,
+    "time": 1122,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_not_null"
+    ],
+    "len": 2000000,
+    "time": 5031,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_between"
+    ],
+    "len": 500000,
+    "time": 1424,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_null"
+    ],
+    "len": 2000000,
+    "time": 5060,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_not_null"
+    ],
+    "len": 1000000,
+    "time": 2378,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_not_null"
+    ],
+    "len": 500000,
+    "time": 1193,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_between"
+    ],
+    "len": 1000000,
+    "time": 2360,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_null"
+    ],
+    "len": 500000,
+    "time": 1133,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_between"
+    ],
+    "len": 500000,
+    "time": 1168,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "equal"
+    ],
+    "len": 500000,
+    "time": 1087,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "equal"
+    ],
+    "len": 2000000,
+    "time": 4576,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_null"
+    ],
+    "len": 1000000,
+    "time": 2280,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "between"
+    ],
+    "len": 2000000,
+    "time": 5829,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "between"
+    ],
+    "len": 500000,
+    "time": 1433,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_equal"
+    ],
+    "len": 2000000,
+    "time": 5333,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_not_null"
+    ],
+    "len": 500000,
+    "time": 1542,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_null"
+    ],
+    "len": 500000,
+    "time": 1334,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "between"
+    ],
+    "len": 2000000,
+    "time": 6037,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_between"
+    ],
+    "len": 500000,
+    "time": 1489,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_between"
+    ],
+    "len": 2000000,
+    "time": 5323,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_null"
+    ],
+    "len": 2000000,
+    "time": 5212,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_equal"
+    ],
+    "len": 2000000,
+    "time": 5572,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_null"
+    ],
+    "len": 500000,
+    "time": 1301,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "between"
+    ],
+    "len": 2000000,
+    "time": 5470,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "equal"
+    ],
+    "len": 500000,
+    "time": 1316,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_equal"
+    ],
+    "len": 1000000,
+    "time": 2384,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_not_null"
+    ],
+    "len": 2000000,
+    "time": 6101,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "between"
+    ],
+    "len": 2000000,
+    "time": 6477,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_not_null"
+    ],
+    "len": 1000000,
+    "time": 3046,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "equal"
+    ],
+    "len": 1000000,
+    "time": 2809,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_between"
+    ],
+    "len": 2000000,
+    "time": 6975,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_not_null"
+    ],
+    "len": 1000000,
+    "time": 2562,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "equal"
+    ],
+    "len": 1000000,
+    "time": 3046,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_null"
+    ],
+    "len": 1000000,
+    "time": 2843,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_equal"
+    ],
+    "len": 1000000,
+    "time": 2536,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "between"
+    ],
+    "len": 500000,
+    "time": 1154,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_not_null"
+    ],
+    "len": 2000000,
+    "time": 5638,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_null"
+    ],
+    "len": 1000000,
+    "time": 2484,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "between"
+    ],
+    "len": 2000000,
+    "time": 5362,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "between"
+    ],
+    "len": 1000000,
+    "time": 2771,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "between"
+    ],
+    "len": 500000,
+    "time": 1100,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_null"
+    ],
+    "len": 500000,
+    "time": 1289,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "equal"
+    ],
+    "len": 2000000,
+    "time": 6636,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_between"
+    ],
+    "len": 500000,
+    "time": 1305,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_not_null"
+    ],
+    "len": 500000,
+    "time": 1714,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_between"
+    ],
+    "len": 1000000,
+    "time": 3780,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "between"
+    ],
+    "len": 2000000,
+    "time": 5599,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_equal"
+    ],
+    "len": 500000,
+    "time": 1206,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "is_null"
+    ],
+    "len": 2000000,
+    "time": 5393,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_between"
+    ],
+    "len": 500000,
+    "time": 1226,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "equal"
+    ],
+    "len": 2000000,
+    "time": 4846,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_between"
+    ],
+    "len": 2000000,
+    "time": 4915,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_equal"
+    ],
+    "len": 1000000,
+    "time": 2750,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "filter",
+    "sampleCount": 1,
+    "ops": [
+      "not_between"
+    ],
+    "len": 500000,
+    "time": 1262,
+    "source": "../example/cars/generated/result_500000.json"
+  }
+]

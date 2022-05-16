@@ -1,4 +1,5 @@
 const fs = require('fs');
+const tqdm = require("tqdm");
 const { generateSpec, computeSpeed } = require('./utils/vega_util')
 
 /* Required data:
@@ -30,10 +31,10 @@ const config = {
 async function run(iter, path) {
     let result = [];
 
-    for (let i = 0; i < iter; i++) { 
+    for (let i of tqdm([...Array(iter).keys()])) {
         let datasetSize = Math.floor(Math.random() * URL.length)
-        let { spec, supplementary } = generateSpec(datasetSize, config["url"], "project");
-        
+        let { spec, supplementary } = generateSpec(datasetSize, config["url"], "filter");
+
         await computeSpeed(spec, supplementary)
             .then(({ len, time, supplementary }) => {
                 supplementary["len"] = len;
@@ -44,7 +45,7 @@ async function run(iter, path) {
 
                 result.push(supplementary)
 
-                if (i % 5 == 0) {
+                if (i % 25 == 0) {
                     fs.writeFileSync(path, JSON.stringify(result, null, 2))
                 }
                 
@@ -55,4 +56,4 @@ async function run(iter, path) {
     }
 }
 
-run(10000, "collect_record.json")
+run(1500, "filter_record.json")

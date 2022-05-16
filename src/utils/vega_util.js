@@ -8,6 +8,8 @@ const Generator = ExampleGenerator.init(path);
 
 function generateSpec(datasetSize, urls, transform) {
     let sample = undefined;
+    let meta = null;
+    let outermeta = "sampleCount";
 
     if (transform == "collect") {
         sample = Generator.Collect.generate(1)[0]
@@ -16,9 +18,11 @@ function generateSpec(datasetSize, urls, transform) {
     } else if (transform == "extent") {
         sample = Generator.Extent.generate(1)[0]
     } else if (transform == "aggregate") {
-        sample = Generator.Extent.generate(1)[0]
+        sample = Generator.Aggregate.generate(1)[0]
+        meta = ["ops"]
     } else if (transform == "filter") {
-        sample = Generator.Extent.generate(1)[0]
+        sample = Generator.Filter.generate(1)[0]
+        outermeta = ["sampleCount", "ops"]
     } else if (transform == "bin") {
         sample = Generator.Extent.generate(1)[0]
     } else {
@@ -39,11 +43,24 @@ function generateSpec(datasetSize, urls, transform) {
             transform: [ sample[0] ]
         }
     ]
-
+    
     const supplementary = {
         type: transform,
-        datasetSize: datasetSize,
-        sampleCount: sample[1]
+        datasetSize: datasetSize
+    }
+
+    if (outermeta == "sampleCount") {
+        supplementary["sampleCount"] = sample[1];
+    } else {
+        for (let i = 0; i < outermeta.length; i++) {
+            supplementary[outermeta[i]] = sample[1][i]
+        }
+    }
+
+    if (meta != null) {
+        for (let i of meta) {
+            supplementary[i] = sample[0][i]
+        }
     }
 
     return { spec, supplementary };
