@@ -33,7 +33,7 @@ async function run(iter, path) {
 
     for (let i of tqdm([...Array(iter).keys()])) {
         let datasetSize = Math.floor(Math.random() * URL.length)
-        let { spec, supplementary } = generateSpec(datasetSize, config["url"], "filter");
+        let { spec, supplementary } = generateSpec(datasetSize, config["url"], "stack");
 
         await computeSpeed(spec, supplementary)
             .then(({ len, time, supplementary }) => {
@@ -56,4 +56,4 @@ async function run(iter, path) {
     }
 }
 
-run(1500, "filter_record.json")
+run(1000, "stack_record_2.json")

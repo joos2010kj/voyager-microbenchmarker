@@ -1,0 +1,23 @@
+project: sampleCount, len
+    - 350
+collect: sampleCount, len
+    - 1000
+extent: sampleCount, len
+    - 250
+stack: "groupby", "len" 
+    - 2500
+bin: len, onehot_ops
+    - 300
+aggregate: len, sampleCount, onehot_ops
+    - 28000
+filter: len, onehot_ops
+    - 300
+
+type, sampleCount, len, groupby, onehot_ops, time
+
+ALL:
+    - 5746
+allSansAgg:
+    - 1483
+allSansAggStack:
+    - 1356

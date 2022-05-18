@@ -1,18 +1,35 @@
 const DataFrame = require('./utils/DataFrame.js');
-const path = "../example/cars/generated/project_record_1500.json"
+const op = "all"
+const path = `../example/cars/generated/normalized_ops/${op}.json`
 const fs = require("fs")
 const tf = require("@tensorflow/tfjs-node");
 
-const modelSavePath = "file://../example/cars/model/project2"
+const modelSavePath = `file://../example/cars/model/norm_${op}`
+
+// type, sampleCount, len, groupby, onehot_ops, time
 
 async function main() {
     /*
     * Create a dataframe
     */
     const metadata = JSON.parse(fs.readFileSync(path, 'utf-8'));
-    const df = new DataFrame(metadata);
-    const inputAttribute = [ "sampleCount", "len" ]
     const outputAttribute = [ "time" ]
+    let inputAttribute = [ "sampleCount", "groupby", "len" ]
+    const onehot = [ "type", "ops" ]
+    let df = new DataFrame(metadata);
+    let merged = df.getColumns([...inputAttribute, ...outputAttribute])
+
+    if (onehot.length != 0) {
+        inputAttribute = inputAttribute.filter(f => !onehot.includes(f))
+
+        for (let elm of onehot) {
+            const dummies = df.getDummies(elm);
+            inputAttribute = [...inputAttribute, ...dummies.columns]
+            merged = merged.concatenate(dummies)
+        }
+    }
+
+    df = merged.shuffle()
 
     /*
     * Create a neural network 
@@ -21,11 +38,12 @@ async function main() {
         layers: [
             tf.layers.dense({
                 inputShape: [ inputAttribute.length ],
-                units: 5,
+                units: 64,
                 activation: "relu",
             }),
             tf.layers.dense({
-                units: 5,
+                inputShape: [ inputAttribute.length ],
+                units: 64,
                 activation: "relu",
             }),
             tf.layers.dense({
@@ -87,7 +105,7 @@ async function train(trainDataset, model) {
     const [ input, output ] = trainDataset
 
     await model.fit(input, output, {
-        epochs: 30,
+        epochs: 50,
         callbacks: {
           onEpochEnd: async (epoch, logs) => {
             if (epoch % 1 === 0) {

@@ -1,0 +1,7016 @@
+[
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 7284,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 17481,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 2317,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 3940,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 2040,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 1642,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 4924,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 20429,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 6622,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 10135,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 1000000,
+    "time": 9759,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 4147,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 1000000,
+    "time": 9664,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 5103,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 3890,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 2133,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 5805,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 2228,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 1000000,
+    "time": 8586,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 9817,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 500000,
+    "time": 5426,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 2000000,
+    "time": 16709,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 9757,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 4859,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 4485,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 14540,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 10154,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 20554,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 4323,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 26838,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 5193,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 9047,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 5282,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 10992,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 4049,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 17417,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 10646,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 8669,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 1580,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 4265,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 8805,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 1000000,
+    "time": 9137,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 2000000,
+    "time": 13058,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3700,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 4123,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3442,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3625,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 10328,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 22713,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 22944,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 5028,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 500000,
+    "time": 5330,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 5644,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 2276,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 4701,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 1000000,
+    "time": 6711,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 5529,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 28077,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 10993,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 10707,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 500000,
+    "time": 4703,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 11351,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 4661,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 4712,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 500000,
+    "time": 4108,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 8698,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 500000,
+    "time": 5290,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3443,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 8938,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 3865,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 2181,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 2659,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 1000000,
+    "time": 8945,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 21299,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 9337,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 4486,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 6913,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 2000000,
+    "time": 9845,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 4127,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 3195,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 500000,
+    "time": 3662,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 17613,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 1000000,
+    "time": 8312,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 1000000,
+    "time": 9677,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 2000000,
+    "time": 12509,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 4227,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 19365,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3574,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 2391,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 2000000,
+    "time": 13125,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 9573,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 500000,
+    "time": 3713,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 7017,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3656,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 6820,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 8603,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 20137,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 8692,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 7800,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 2000000,
+    "time": 7832,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3396,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 2266,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 12631,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 9817,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 2965,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 5111,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 18999,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 2295,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 7119,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 4540,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 4567,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 4091,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 2455,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 10093,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 4202,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3731,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3834,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 1000000,
+    "time": 9290,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 12763,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 1000000,
+    "time": 9581,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 4431,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 3817,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 19096,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 4814,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 8521,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 2696,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 2000000,
+    "time": 21031,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 9780,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 1706,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 2447,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 10291,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 22473,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 9665,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 11004,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 8951,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 9460,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 4427,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 500000,
+    "time": 3959,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 7618,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 1000000,
+    "time": 6778,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 8236,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3862,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 1000000,
+    "time": 8852,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 13610,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3778,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 500000,
+    "time": 3339,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 2000000,
+    "time": 13742,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3692,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 3146,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3541,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 3925,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3682,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 4643,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3522,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 5952,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 500000,
+    "time": 3037,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 1000000,
+    "time": 6277,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 6692,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 14716,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 4346,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 8143,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 2094,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 500000,
+    "time": 3040,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 13007,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3151,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 14061,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 3973,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 1000000,
+    "time": 7446,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 5880,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 3644,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3116,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 23854,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 17915,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 16876,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 4380,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 5134,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 7818,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 2846,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 7707,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 2000000,
+    "time": 13988,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 7320,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 7400,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 3063,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 2000000,
+    "time": 11800,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 13763,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 18260,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 3545,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 1000000,
+    "time": 6083,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 3354,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 15317,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 2000000,
+    "time": 10662,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 2969,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 16328,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 3033,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 2981,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 1000000,
+    "time": 6827,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 16678,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 3487,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 3177,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 13522,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 14058,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 19197,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 1814,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3315,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 3601,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 2000000,
+    "time": 8804,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 1000000,
+    "time": 6621,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 1000000,
+    "time": 7019,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 1000000,
+    "time": 7578,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 1000000,
+    "time": 8219,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 10137,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 18402,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 12232,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 5032,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 12013,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3778,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 2303,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 1000000,
+    "time": 6934,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 1932,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 2978,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 1891,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 3742,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 17164,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 6406,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 1000000,
+    "time": 6849,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 3313,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 2000000,
+    "time": 12186,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 2000000,
+    "time": 9133,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 3600,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 15872,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 5730,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 3418,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 17193,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 1411,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3132,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 1000000,
+    "time": 6051,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 10432,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3240,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 7728,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 4661,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3144,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 2576,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 3669,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3309,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 1922,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 15816,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 2000000,
+    "time": 10878,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 2896,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 6914,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 7032,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 7149,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 1000000,
+    "time": 6588,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 3682,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 16590,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 16121,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 2769,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 1458,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 5158,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 6202,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 14311,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 3764,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 3706,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 16428,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 2121,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 1000000,
+    "time": 6193,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 2000000,
+    "time": 14030,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 7757,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 7632,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 8905,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 15913,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 9227,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 7845,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 3744,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 15016,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 2801,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 2000000,
+    "time": 7086,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3137,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 1872,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 3328,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 7249,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 3663,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 7990,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3646,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 3618,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 2000000,
+    "time": 6878,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 5716,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 9042,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 6792,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 500000,
+    "time": 2787,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 1629,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 3684,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 17402,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3404,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 3257,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 500000,
+    "time": 3010,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 3709,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 3365,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 6176,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 3482,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 4086,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 16441,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 1000000,
+    "time": 4891,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 1651,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 18309,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 1000000,
+    "time": 5583,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 3691,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 3176,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 1000000,
+    "time": 7044,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 4014,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 6694,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 3773,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 12801,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 1576,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 500000,
+    "time": 3016,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 10260,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 500000,
+    "time": 4114,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 6397,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 500000,
+    "time": 3227,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 2338,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 500000,
+    "time": 2893,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 2202,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3487,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 2000000,
+    "time": 7274,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 3036,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 1523,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 2668,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 1808,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 6783,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 2000000,
+    "time": 6897,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 6374,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 8680,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 17395,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 3781,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 7549,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 1746,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 1000000,
+    "time": 6296,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 4275,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 2467,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 3616,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 1411,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 5211,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 6641,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 1000000,
+    "time": 7594,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 6075,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 6002,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 6989,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 2000000,
+    "time": 8846,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 12174,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 2000000,
+    "time": 13700,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 3045,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 1349,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 1978,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 10815,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 1830,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 2532,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 3524,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 5712,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 4280,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 2648,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 1300,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 17213,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 1000000,
+    "time": 6898,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 6728,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 8872,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 15843,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 3441,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 3294,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 4438,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 1000000,
+    "time": 7576,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 17700,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 17711,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 1000000,
+    "time": 7783,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 2959,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 3176,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 8509,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 7747,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 4486,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 5896,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 17602,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 20841,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 4764,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 1000000,
+    "time": 6981,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 3854,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 9760,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 18086,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 8201,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 8495,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 500000,
+    "time": 3024,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 9519,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 15278,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 21299,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 1000000,
+    "time": 9305,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 25541,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 26677,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 2740,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 5339,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3999,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 10179,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 11856,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 15025,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 9233,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 5483,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 3737,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3251,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 17900,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 2667,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 5387,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 1000000,
+    "time": 9083,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 2000000,
+    "time": 8371,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3832,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 7825,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 5948,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 7218,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 8932,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 4063,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 3610,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3650,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 1964,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 500000,
+    "time": 5011,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 8464,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 19943,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 3100,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 5759,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 3152,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 1000000,
+    "time": 8323,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3737,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3591,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 4160,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 4325,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 23010,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 9400,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 5342,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 2000000,
+    "time": 8326,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 2865,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 4128,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 3723,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 19499,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 4500,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 2607,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 21863,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 1000000,
+    "time": 7451,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 1966,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 19352,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 19764,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 3734,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 5318,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 3916,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 9662,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 8160,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 3172,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 6548,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 9594,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 1000000,
+    "time": 8739,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 19463,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 4540,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 11974,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 4678,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 4490,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 9811,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 13261,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 1000000,
+    "time": 7819,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 4119,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 7373,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 3660,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 1801,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 1000000,
+    "time": 6753,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 4609,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 2000000,
+    "time": 12821,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 19075,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 2000000,
+    "time": 7854,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 1000000,
+    "time": 6870,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 2256,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 6274,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 3748,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3416,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 2000000,
+    "time": 8337,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3582,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 1756,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 2000000,
+    "time": 9754,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 15113,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 2016,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 6386,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 7223,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 1000000,
+    "time": 7421,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 16039,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 9297,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 7937,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 4942,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 7139,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 1000000,
+    "time": 7321,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 2000000,
+    "time": 11908,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 17455,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 3728,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 3947,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 4174,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 4580,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3857,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3599,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 500000,
+    "time": 3506,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 2300,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 2000000,
+    "time": 10322,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 3400,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 17071,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 3915,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 5761,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 7309,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 2000000,
+    "time": 8199,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3237,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 16041,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 500000,
+    "time": 3208,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 2000000,
+    "time": 8929,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 3506,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3551,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 8392,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 7518,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 3336,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 3215,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 6139,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 4165,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 18915,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 500000,
+    "time": 3420,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 2038,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 1000000,
+    "time": 6733,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 19431,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 17927,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 8934,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 4134,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 7312,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 18659,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 8354,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 5166,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 18733,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 1000000,
+    "time": 7416,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 6729,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 3077,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 5905,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 2835,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 5305,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 2944,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 2000000,
+    "time": 11835,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 3568,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 17037,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 6244,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 17104,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 3663,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 1457,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 3332,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 2036,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 4173,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 2991,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 7464,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 2249,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3751,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 1000000,
+    "time": 6708,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 1631,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 1000000,
+    "time": 6641,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 1000000,
+    "time": 6823,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 7842,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 3069,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 1000000,
+    "time": 6778,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 7979,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 15694,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 6722,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 6272,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 1560,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 3323,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3076,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3248,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 7178,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 18912,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 6814,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 7840,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 4156,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 4187,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 16132,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 2000000,
+    "time": 9220,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 6341,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 11101,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 500000,
+    "time": 3249,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 8027,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 7857,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 6537,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 20964,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 21241,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 3637,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 6016,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3354,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 15810,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 4438,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 1647,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 1515,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 16901,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3331,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 1883,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 11624,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 13241,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 3925,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 2446,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 8997,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3548,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3905,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 18128,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 18581,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 17469,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 19208,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 4031,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 4827,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 2000000,
+    "time": 9033,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 8199,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 2712,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 1680,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 2167,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 16753,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 6301,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 6364,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 17431,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 4245,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 2000000,
+    "time": 11501,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 8777,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 19270,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 17588,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 4210,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 2000000,
+    "time": 8288,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 11291,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 6279,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 4330,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 9925,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 4541,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 4562,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 8010,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 3821,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 7510,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3819,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 1563,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 7494,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3688,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 7594,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 8277,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 8742,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 15279,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 18007,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 19267,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 4219,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 20301,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3716,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 2564,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 2000000,
+    "time": 8086,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 7969,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 2318,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 15732,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 3456,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 2015,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 20999,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 500000,
+    "time": 3942,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 10140,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 19129,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 8660,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 3253,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 16137,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 8370,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 14967,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 16873,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 2791,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 500000,
+    "time": 3775,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 17690,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 4916,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 2296,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 4454,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3666,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 4564,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 2000000,
+    "time": 11489,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 3789,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3825,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 2000000,
+    "time": 8936,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 1000000,
+    "time": 6617,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3443,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 4442,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 2000000,
+    "time": 7955,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 13754,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 8897,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3855,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 1910,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 3836,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 14804,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 3858,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 4140,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3577,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 1492,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 7411,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 6376,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 1974,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 7486,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 7799,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 2915,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 4521,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 9682,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 500000,
+    "time": 3802,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 16857,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 5973,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 4002,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 4581,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 1826,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 16676,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3242,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 1770,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 18678,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 1000000,
+    "time": 7066,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 18639,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 18017,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 1605,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 17204,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 8755,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3540,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 2000000,
+    "time": 7284,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 7598,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 19807,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 3796,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 7961,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 8188,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 3824,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 2000000,
+    "time": 7918,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 7184,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 17333,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 8027,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3931,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 4007,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 17539,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 4038,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 8508,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 1888,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 2181,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 3598,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 6496,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 3851,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 4080,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 5519,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 1969,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 7458,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 1000000,
+    "time": 5423,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 2926,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 19789,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 2000000,
+    "time": 12837,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 2106,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 1000000,
+    "time": 7466,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3742,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 6933,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 3874,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 2000000,
+    "time": 13172,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 2278,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 1978,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 3557,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 2000000,
+    "time": 15777,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 17859,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 1000000,
+    "time": 6452,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 1000000,
+    "time": 7288,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 7669,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 1533,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 15830,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 6587,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3380,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 2000000,
+    "time": 8225,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3144,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 1796,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 17006,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 4145,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 16369,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 3251,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3556,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 5830,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 500000,
+    "time": 3260,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 3816,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 6622,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 17233,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 1000000,
+    "time": 6116,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 2235,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 500000,
+    "time": 3101,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 2601,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 6813,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 2912,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 3752,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 1490,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 3459,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 1927,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 17260,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 1000000,
+    "time": 6434,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 3417,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 9099,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 6079,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3350,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 2457,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3350,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3319,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 2235,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3209,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 1000000,
+    "time": 6980,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 2000000,
+    "time": 9620,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 500000,
+    "time": 3581,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 17159,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 2000000,
+    "time": 10629,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 2330,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 6793,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3091,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 3250,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 11353,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 3525,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 7308,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 9312,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 3494,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 8519,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 1000000,
+    "time": 6885,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 2010,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 16573,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 15998,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 1716,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 8009,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 7574,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 4153,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 3949,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 4138,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 8508,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 17271,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 16324,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 4050,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 16939,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 18304,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 18817,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 9037,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 7478,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 19161,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 2942,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3347,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 1503,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 17172,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 3229,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 2000000,
+    "time": 10756,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 2000000,
+    "time": 9349,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 8369,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 18757,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 16534,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 18224,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 3966,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 16742,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 8558,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 6726,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 6994,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 7363,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 500000,
+    "time": 4053,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 3398,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 17006,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 4075,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 1866,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 2434,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 3185,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 4005,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 1862,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 2000000,
+    "time": 8994,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 3865,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 1000000,
+    "time": 6584,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 4329,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 1626,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 3230,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 17058,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 3276,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 1000000,
+    "time": 7307,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 7494,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 3462,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 7623,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 2000000,
+    "time": 8298,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 5017,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 7804,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 18644,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 1734,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 7536,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 9863,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 6184,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 8288,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 3491,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 18355,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 2053,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3408,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 19446,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 2000000,
+    "time": 9282,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 4313,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 8329,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 3525,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 1895,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 3618,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 18045,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 1935,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 17092,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3465,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 3503,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 2000000,
+    "time": 10367,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 17106,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 7148,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 8306,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 3079,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 1000000,
+    "time": 6580,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 18785,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 500000,
+    "time": 3493,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3414,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 8031,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 9462,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 12076,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3757,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 14040,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 7416,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 16672,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3272,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 2000000,
+    "time": 17204,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 3727,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 11744,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 1000000,
+    "time": 7476,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 4828,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 3183,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 6602,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 17586,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 1617,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 15253,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 3539,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 7420,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 3683,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 3790,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 2952,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 12084,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 2000000,
+    "time": 9595,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 18913,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 7536,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 3110,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3187,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 4141,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 7491,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 2082,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 3800,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 6365,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 500000,
+    "time": 3139,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 2490,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 2000000,
+    "time": 11498,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3259,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 3834,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 3295,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 3537,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 2330,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 7347,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 16491,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 5089,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 1000000,
+    "time": 7096,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 5119,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 7581,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 6599,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 500000,
+    "time": 2918,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 3199,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 3039,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 8754,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 3474,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 500000,
+    "time": 4211,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 18112,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 19661,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 10050,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 10902,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 1000000,
+    "time": 7902,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 2633,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 500000,
+    "time": 1746,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 6560,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 1000000,
+    "time": 7928,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 2230,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 3756,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 1000000,
+    "time": 5834,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 500000,
+    "time": 1511,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3614,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 1000000,
+    "time": 5758,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 6820,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 12356,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 1000000,
+    "time": 7717,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 2,
+    "len": 2000000,
+    "time": 11642,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 1000000,
+    "time": 6680,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 4,
+    "len": 2000000,
+    "time": 13983,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 18797,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 8268,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3823,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 3871,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 1000000,
+    "time": 6766,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 500000,
+    "time": 2983,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 21327,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 500000,
+    "time": 4495,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 2000000,
+    "time": 8203,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 14235,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 17717,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 9397,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 16562,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 5,
+    "len": 2000000,
+    "time": 14638,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 2000000,
+    "time": 8391,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 3691,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 7515,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 3,
+    "len": 500000,
+    "time": 3007,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 1000000,
+    "time": 8470,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 2000000,
+    "time": 16864,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 8,
+    "len": 2000000,
+    "time": 19298,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 7,
+    "len": 500000,
+    "time": 3418,
+    "source": "../example/cars/generated/result_500000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 2000000,
+    "time": 16234,
+    "source": "../example/cars/generated/result_2000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 1,
+    "len": 1000000,
+    "time": 2926,
+    "source": "../example/cars/generated/result_1000000.json"
+  },
+  {
+    "type": "stack",
+    "groupby": 6,
+    "len": 500000,
+    "time": 3410,
+    "source": "../example/cars/generated/result_500000.json"
+  }
+]

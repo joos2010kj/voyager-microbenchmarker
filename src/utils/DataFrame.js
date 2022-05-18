@@ -44,21 +44,31 @@ class DataFrame {
         return new DataFrame(newData)
     }
 
-    getDummies(col) {
+    getDummies(col, assert_onehot) {
         let df = this.getColumns([col])
         let attributes = Array.from(new Set(df.data.map(k => k[Object.keys(k)[0]])))
         let obj = {}
 
+        assert_onehot = assert_onehot == undefined ? false : true;
+
         for (let att of attributes) {
-            let name = att
-            obj[name] = [];
+            if (!Array.isArray(att)) {
+                att = [att]
+            }
+
+            for (let elm of att) {
+                let name = elm
+                obj[name] = [];
+            }
         }
 
+        attributes = Object.keys(obj)
+        
         for (let elm of df.data) {
             let category = elm[col]
 
             for (let attr of attributes) {
-                if (attr == category) {
+                if (category.includes(attr)) {
                     obj[attr].push(1)
                 } else {
                     obj[attr].push(0)
@@ -77,7 +87,7 @@ class DataFrame {
                 sum += obj[attr][i]
             }
 
-            if (sum != 1) {
+            if (assert_onehot && sum != 1) {
                 throw Error()
             }
 
@@ -297,6 +307,23 @@ class DataFrame {
         }
         
         return newData
+    }
+
+    replace(attr, orig, update) {
+        let isFunc = false;
+        let wildcard = orig == "__wildcard__" ? true : false;
+
+        if (typeof update == "function") {
+            isFunc = true;
+        }
+
+        for (let i = 0; i < this.data.length; i++) {
+            if (wildcard || this.data[i][attr] == orig) {
+                this.data[i][attr] = isFunc ? update(this.data[i][attr]) : update;
+            }
+        }
+
+        return new DataFrame(this.data)
     }
 
     average() {

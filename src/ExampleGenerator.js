@@ -235,11 +235,129 @@ class ExampleGenerator {
                         }
         
                         if (useTemplate) {
-                            const child = Template('aggregate', expr, null);            
+                            const child = Template('filter', expr, null);            
             
                             return [STRINGIFY ? JSON.stringify(child) : child, [sampleSize, ops]];
                         } else {
                             return [STRINGIFY ? JSON.stringify(expr) : expr, [sampleSize, ops]];
+                        }
+                    })
+                }
+            }
+
+            static Bin = class {
+                static generate(count) {        
+                    return Array.from(Array(count).keys()).map(index => {
+                        const sampleSize = Math.ceil(Math.random() * 1) // only quant for now
+                        const field = _.sampleSize(Object.keys({...STATS['quantitative']}), sampleSize) // repetition disallowed
+                        const ops = [];
+                        
+                        for (let i = 0; i < sampleSize; i++) {
+                            ops.push(_.sample([
+                                "interval",
+                                "anchor",
+                                "maxbins",
+                                "base",
+                                "step",
+                                "minstep",
+                                "nice",
+                            ]))
+                        }
+
+                        let attribute = field[0];
+                        let lower = STATS["quantitative"][attribute][0] - STATS["quantitative"][attribute][1] * Math.random() * 2.5;
+                        let upper = STATS["quantitative"][attribute][0] + STATS["quantitative"][attribute][1] * Math.random() * 2.5;
+                    
+                        const bin = new Transform.Bin(attribute, [Math.floor(lower), Math.ceil(upper)]);
+
+                        for (let op of ops) {
+                            switch (op) {
+                                case "interval":
+                                    bin.add(op, Math.random() > 0.5 ? "true" : "false");
+                                    break;
+                                case "anchor":
+                                    bin.add(
+                                        op,
+                                        lower + Math.min(
+                                            (upper - lower) * 0.5, 
+                                            Math.random() * (STATS["quantitative"][attribute][3] - lower)
+                                        )
+                                    )
+                                    break;
+                                case "maxbins":
+                                    bin.add(
+                                        op,
+                                        5 * Math.ceil(Math.random() * 5)
+                                    )
+                                    break;
+                                case "base":
+                                    bin.add(
+                                        op,
+                                        Math.random() > 0.75 ? 10 : _.sample([2, 4, 8, 16])
+                                    )
+                                    break;
+                                case "step":
+                                    bin.add(
+                                        op,
+                                        5 * Math.ceil(Math.random() * 5)
+                                    )
+                                    break;
+                                case "minstep":
+                                    bin.add(
+                                        op,
+                                        Math.ceil(Math.random() * 25)
+                                    )
+                                    break;
+                                case "nice":
+                                    bin.add(op, Math.random() > 0.5 ? "true" : "false");
+                                    break;
+                                case "as":
+                                    bin.add(op, "op1");
+                                    break;
+                            }
+                        }
+                    
+    
+                        const expr = {
+                            "type": "bin",
+                            ...bin.property
+                        }
+        
+                        if (useTemplate) {
+                            const child = Template('bin', expr, null);            
+            
+                            return [STRINGIFY ? JSON.stringify(child) : child, [sampleSize, ops]];
+                        } else {
+                            return [STRINGIFY ? JSON.stringify(expr) : expr, [sampleSize, ops]];
+                        }
+                    })
+                }
+            }
+
+            static Stack = class {
+                static generate(count) {        
+                    return Array.from(Array(count).keys()).map(index => {
+                        const sampleSize = 2 + Math.floor(Math.random() * (QUANT_COUNT + CAT_COUNT - 1))
+                        const fields = _.sampleSize(Object.keys({...STATS['quantitative'], ...STATS['categorical']}), sampleSize)
+                        const stack = new Transform.Stack(fields[0]);
+
+                        stack.add(
+                            "groupby",
+                            fields.slice(1)
+                        )
+                    
+    
+                        const expr = {
+                            "type": "stack",
+                            ...stack.property
+                        }
+        
+                        if (useTemplate) {
+                            const child = Template('bin', expr, null);            
+            
+                            return [STRINGIFY ? JSON.stringify(child) : child, [sampleSize, fields.slice(1).length]];
+                        } else {
+                            return [STRINGIFY ? JSON.stringify(expr) : expr, [sampleSize, fields.slice(1).length]];
                         }
                     })
                 }

@@ -1,6 +1,31 @@
 const assert = require('assert')
 
 class Transform {
+    static Stack = class {
+        constructor (field, extent) {
+            this.property = {
+                field: field
+            }
+
+            this.add = function (name, val) {
+                this.property[name] = val
+            }
+        }
+    }
+
+    static Bin = class {
+        constructor (field, extent) {
+            this.property = {
+                field: field,
+                extent: extent
+            }
+
+            this.add = function (name, val) {
+                this.property[name] = val
+            }
+        }
+    }
+
     static Filter = class {
         static cast_type(value) {
             if (typeof(value) == "string") {

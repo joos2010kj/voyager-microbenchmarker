@@ -24,7 +24,11 @@ function generateSpec(datasetSize, urls, transform) {
         sample = Generator.Filter.generate(1)[0]
         outermeta = ["sampleCount", "ops"]
     } else if (transform == "bin") {
-        sample = Generator.Extent.generate(1)[0]
+        sample = Generator.Bin.generate(1)[0]
+        outermeta = ["__omit__", "ops"]
+    } else if (transform == "stack") {
+        sample = Generator.Stack.generate(1)[0]
+        outermeta = ["__omit__", "groupby"]
     } else {
         throw new Error();
     }
@@ -53,13 +57,17 @@ function generateSpec(datasetSize, urls, transform) {
         supplementary["sampleCount"] = sample[1];
     } else {
         for (let i = 0; i < outermeta.length; i++) {
-            supplementary[outermeta[i]] = sample[1][i]
+            if (outermeta[i] != "__omit__") {
+                supplementary[outermeta[i]] = sample[1][i]
+            }
         }
     }
 
     if (meta != null) {
         for (let i of meta) {
-            supplementary[i] = sample[0][i]
+            if (i != "__omit__") {
+                supplementary[i] = sample[0][i]
+            }
         }
     }
 
