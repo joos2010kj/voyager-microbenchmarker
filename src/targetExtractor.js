@@ -17,6 +17,10 @@ const path = "/Users/hyekangjoo/Desktop/repo/voyager-microbenchmarker/example/hi
 const spec = JSON.parse(fs.readFileSync(path, 'utf-8'));
 const mappers = [];
 
+// Vega Transform       - O
+// Vega Cardinality     - O
+// DB Transform         - O
+// DB Cardinality       - X
 async function compute() {
     const parsed = await vega.parse(spec);
     const view = await new vega.View(parsed).runAsync();
@@ -32,8 +36,18 @@ async function compute() {
     spec["data"][0]["transform"].forEach(f => {
         add(dbData, f["type"], 1);
     })
+
+    const net = {};
+
+    Object.keys(vegaData).forEach(f => {
+        net[`vega_${f}`] = vegaData[f];
+    })
+
+    Object.keys(dbData).forEach(f => {
+        net[`db_${f}`] = dbData[f];
+    })
     
-    console.log(dbData)
+    console.log(net)
 }
 
 function recurse(target, cancel, parent, storage) {
