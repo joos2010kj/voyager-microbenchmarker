@@ -1,15 +1,3 @@
-// const { ExampleGenerator } = require("./ExampleGenerator.js");
-
-// const path = "../example/cars/raw/quant_and_qual_stat.json";
-// const stringify = true;
-
-// const Generator = ExampleGenerator.init(path);
-
-// const result = [Generator.Filter.generate(1)[0], Generator.Aggregate.generate(1)[0], Generator.Project.generate(1)[0], Generator.Extent.generate(1)[0], Generator.Collect.generate(1)[0]];
-
-// console.log(result[1])
-
-
 const fs = require("fs")
 const vega = require('vega');
 
@@ -25,11 +13,12 @@ async function compute() {
     const parsed = await vega.parse(spec);
     const view = await new vega.View(parsed).runAsync();
     const runtime = view["_runtime"];
+    const name = spec["data"][0]["name"];
     
-    const data = runtime["data"]
-    const input = data["directors"]["input"];
+    const data = runtime["data"];
+    const input = data[name]["input"];
 
-    const vegaData = recurse(input["_targets"], data["directors"]["output"]["id"], input.constructor.name, {});
+    const vegaData = recurse(input["_targets"], data[name]["output"]["id"], input.constructor.name, {});
     
     const dbData = {};
 
@@ -47,7 +36,9 @@ async function compute() {
         net[`db_${f}`] = dbData[f];
     })
     
-    console.log(net)
+    console.log(net);
+    
+    return net;
 }
 
 function recurse(target, cancel, parent, storage) {
@@ -83,10 +74,3 @@ function add(mapper, key, val) {
 }
 
 compute();
-
-// {
-//     "Filter": 2, // sum of all filters
-//     "Aggregate": 1,
-//     "Window": 1,
-//     "Filter_Card":0 //sum of all cards (Collect["value"])
-// }
