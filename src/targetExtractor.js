@@ -12,33 +12,38 @@ const mappers = [];
 async function compute() {
     const parsed = await vega.parse(spec);
     const view = await new vega.View(parsed).runAsync();
-    const runtime = view["_runtime"];
-    const name = spec["data"][0]["name"];
+    const data = view["_runtime"]["data"];
+    let out = {};
+
+    for (let i = 0 ; i < spec["data"].length; i++) {
+        const name = spec["data"][i]["name"];
+        const input = data[name]["input"];
+        const vegaData = recurse(input["_targets"], data[name]["output"]["id"], input.constructor.name, {});
+        
+        const dbData = {};
+
+        spec["data"][i]["transform"].forEach(f => {
+            add(dbData, f["type"], 1);
+        })
+
+        const subnet = {};
+
+        Object.keys(vegaData).forEach(f => {
+            subnet[`vega_${f}`] = vegaData[f];
+        })
+
+        Object.keys(dbData).forEach(f => {
+            subnet[`db_${f}`] = dbData[f];
+        })
+
+        out = merge(out, subnet);
+    }
     
-    const data = runtime["data"];
-    const input = data[name]["input"];
+    return out;
+}
 
-    const vegaData = recurse(input["_targets"], data[name]["output"]["id"], input.constructor.name, {});
-    
-    const dbData = {};
-
-    spec["data"][0]["transform"].forEach(f => {
-        add(dbData, f["type"], 1);
-    })
-
-    const net = {};
-
-    Object.keys(vegaData).forEach(f => {
-        net[`vega_${f}`] = vegaData[f];
-    })
-
-    Object.keys(dbData).forEach(f => {
-        net[`db_${f}`] = dbData[f];
-    })
-    
-    console.log(net);
-    
-    return net;
+function merge(map1, map2) {
+    return Object.entries(map2).reduce((acc, [key, value]) => ({ ...acc, [key]: (acc[key] || 0) + value }), { ...map1 });
 }
 
 function recurse(target, cancel, parent, storage) {
